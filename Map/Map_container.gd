@@ -14,8 +14,9 @@ const speed = 1
 @export_range(0,19) var zoom: int = 19
 @export var grid_width = 15
 @export var grid_height = 10
-
+#@onready var animation_player=preload("res://just_model.tscn/AnimationPlayer")
 func _ready():
+	print_tree()
 	var coords = _mercator_projection(latitude, longitude, zoom)
 	generate_grid(coords["x"], coords["y"], Vector3(0, 0, 0))
 
@@ -43,9 +44,11 @@ func create_tile(x: int, y: int) -> Node3D:
 
 # move the world under the player
 func _physics_process(delta):
+	#animation_player = $AnimationPlayer
 	var direction = Vector3.ZERO    
 	if Input.is_action_pressed("up"):
 		direction.z += 1
+		#animation_player.play("running")
 	if Input.is_action_pressed("down"):
 		direction.z -= 1
 	if Input.is_action_pressed("left"):

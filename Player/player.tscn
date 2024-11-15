@@ -1,12 +1,16 @@
-[gd_scene load_steps=3 format=3 uid="uid://bnkuec8jffdiw"]
+[gd_scene load_steps=4 format=3 uid="uid://bnkuec8jffdiw"]
 
 [ext_resource type="Script" path="res://Player/player.gd" id="1_g0ye0"]
+[ext_resource type="PackedScene" uid="uid://bckel6cgm65h1" path="res://3d_character.tscn" id="2_vmpxv"]
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_1wkx7"]
 
-[node name="Player" type="Node3D"]
+[node name="Player" type="CharacterBody3D"]
 transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0, 0, 0)
 script = ExtResource("1_g0ye0")
 
+[node name="justModel" parent="." instance=ExtResource("2_vmpxv")]
+
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+visible = false
 mesh = SubResource("CapsuleMesh_1wkx7")

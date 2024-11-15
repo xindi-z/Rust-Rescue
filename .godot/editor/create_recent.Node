@@ -1,3 +1,7 @@
+Node3D
+AnimationTree
+CollisionShape3D
+CharacterBody3D
+AnimatedSprite3D
 AnimationPlayer
 Node2D
-Node3D
