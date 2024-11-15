@@ -11,4 +11,3 @@ script = ExtResource("1_hjdlu")
 metadata/_edit_use_anchors_ = true
 
 [node name="player" parent="." instance=ExtResource("2_4k6xk")]
-position = Vector2(0, 8)

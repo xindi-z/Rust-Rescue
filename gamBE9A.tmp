@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://b6wmts1ugb551"]
+
+[ext_resource type="Script" path="res://map_loader.gd" id="1_3db7t"]
+[ext_resource type="Script" path="res://map_show.gd" id="2_rqqbq"]
+[ext_resource type="Texture2D" uid="uid://b6at0yxeo0jdi" path="res://icon.svg" id="3_eo18b"]
+
+[node name="GameMap" type="Node2D"]
+
+[node name="MapLoader" type="HTTPRequest" parent="."]
+script = ExtResource("1_3db7t")
+
+[node name="MapShow" type="Sprite2D" parent="."]
+script = ExtResource("2_rqqbq")
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(501, 197)
+texture = ExtResource("3_eo18b")
