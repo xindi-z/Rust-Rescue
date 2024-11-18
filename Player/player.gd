@@ -6,10 +6,9 @@ var current_tile
 
 @export var ray_cast_per_second: float = 4 
 var time_since_last_cast: float = 0.0
-#var animation_tree : AnimationTree
+
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	
 	# reduce unnessesary ray casting
 	if time_since_last_cast < 1.0/ray_cast_per_second:
 		time_since_last_cast += delta
