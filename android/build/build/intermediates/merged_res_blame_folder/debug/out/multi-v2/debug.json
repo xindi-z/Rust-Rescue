@@ -1,0 +1,2587 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-lo_values-lo.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-lo\\values-lo.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,151,254,353,451,552,650,761",
+                        "endColumns": "95,102,98,97,100,97,110,100",
+                        "endOffsets": "146,249,348,446,547,645,756,857"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-th_values-th.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-th\\values-th.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,151,254,352,450,553,658,770",
+                        "endColumns": "95,102,97,97,102,104,111,100",
+                        "endOffsets": "146,249,347,445,548,653,765,866"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,151,254,352,450,553,658,840",
+                        "endColumns": "95,102,97,97,102,104,111,100",
+                        "endOffsets": "146,249,347,445,548,653,765,936"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\Desktop\\nmsu_fall24\\DGD\\final_game_project\\Rust-Rescue\\android\\build\\res\\values-th\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "66",
+                        "endOffsets": "177"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "770",
+                        "endColumns": "69",
+                        "endOffsets": "835"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-et_values-et.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-et\\values-et.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,150,252,350,453,559,664,784",
+                        "endColumns": "94,101,97,102,105,104,119,100",
+                        "endOffsets": "145,247,345,448,554,659,779,880"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-en-rXC_values-en-rXC.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,251,456,657,858,1065,1270,1482",
+                        "endColumns": "195,204,200,200,206,204,211,203",
+                        "endOffsets": "246,451,652,853,1060,1265,1477,1681"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-az_values-az.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-az\\values-az.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,156,258,361,465,566,671,782",
+                        "endColumns": "100,101,102,103,100,104,110,100",
+                        "endOffsets": "151,253,356,460,561,666,777,878"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-nb_values-nb.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\Desktop\\nmsu_fall24\\DGD\\final_game_project\\Rust-Rescue\\android\\build\\res\\values-nb\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "66",
+                        "endOffsets": "177"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "781",
+                        "endColumns": "69",
+                        "endOffsets": "846"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-nb\\values-nb.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,149,251,348,447,555,661,781",
+                        "endColumns": "93,101,96,98,107,105,119,100",
+                        "endOffsets": "144,246,343,442,550,656,776,877"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,149,251,348,447,555,661,851",
+                        "endColumns": "93,101,96,98,107,105,119,100",
+                        "endOffsets": "144,246,343,442,550,656,776,947"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-fi_values-fi.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-fi\\values-fi.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,151,253,351,456,561,673,789",
+                        "endColumns": "95,101,97,104,104,111,115,100",
+                        "endOffsets": "146,248,346,451,556,668,784,885"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,151,253,351,456,561,673,859",
+                        "endColumns": "95,101,97,104,104,111,115,100",
+                        "endOffsets": "146,248,346,451,556,668,784,955"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\Desktop\\nmsu_fall24\\DGD\\final_game_project\\Rust-Rescue\\android\\build\\res\\values-fi\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "66",
+                        "endOffsets": "177"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "789",
+                        "endColumns": "69",
+                        "endOffsets": "854"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-fr_values-fr.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\Desktop\\nmsu_fall24\\DGD\\final_game_project\\Rust-Rescue\\android\\build\\res\\values-fr\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "66",
+                        "endOffsets": "177"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "782",
+                        "endColumns": "69",
+                        "endOffsets": "847"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-fr\\values-fr.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,255,354,456,560,664,782",
+                        "endColumns": "97,101,98,101,103,103,117,100",
+                        "endOffsets": "148,250,349,451,555,659,777,878"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,255,354,456,560,664,852",
+                        "endColumns": "97,101,98,101,103,103,117,100",
+                        "endOffsets": "148,250,349,451,555,659,777,948"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-is_values-is.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-is\\values-is.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,150,257,354,454,557,661,772",
+                        "endColumns": "94,106,96,99,102,103,110,100",
+                        "endOffsets": "145,252,349,449,552,656,767,868"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-uz_values-uz.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-uz\\values-uz.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,157,259,360,460,568,672,791",
+                        "endColumns": "101,101,100,99,107,103,118,100",
+                        "endOffsets": "152,254,355,455,563,667,786,887"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-sq_values-sq.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-sq\\values-sq.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,154,256,354,451,559,670,792",
+                        "endColumns": "98,101,97,96,107,110,121,100",
+                        "endOffsets": "149,251,349,446,554,665,787,888"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-sw_values-sw.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-sw\\values-sw.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,149,251,348,449,556,663,778",
+                        "endColumns": "93,101,96,100,106,106,114,100",
+                        "endOffsets": "144,246,343,444,551,658,773,874"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-sl_values-sl.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\Desktop\\nmsu_fall24\\DGD\\final_game_project\\Rust-Rescue\\android\\build\\res\\values-sl\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "66",
+                        "endOffsets": "177"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "778",
+                        "endColumns": "69",
+                        "endOffsets": "843"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-sl\\values-sl.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,152,254,352,456,559,661,778",
+                        "endColumns": "96,101,97,103,102,101,116,100",
+                        "endOffsets": "147,249,347,451,554,656,773,874"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,152,254,352,456,559,661,848",
+                        "endColumns": "96,101,97,103,102,101,116,100",
+                        "endOffsets": "147,249,347,451,554,656,773,944"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-pt_values-pt.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-pt\\values-pt.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,152,254,353,453,560,670,790",
+                        "endColumns": "96,101,98,99,106,109,119,100",
+                        "endOffsets": "147,249,348,448,555,665,785,886"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,152,254,353,453,560,670,860",
+                        "endColumns": "96,101,98,99,106,109,119,100",
+                        "endOffsets": "147,249,348,448,555,665,785,956"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\Desktop\\nmsu_fall24\\DGD\\final_game_project\\Rust-Rescue\\android\\build\\res\\values-pt\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "66",
+                        "endOffsets": "177"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "790",
+                        "endColumns": "69",
+                        "endOffsets": "855"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-ka_values-ka.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-ka\\values-ka.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,151,253,352,451,557,661,779",
+                        "endColumns": "95,101,98,98,105,103,117,100",
+                        "endOffsets": "146,248,347,446,552,656,774,875"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-zh-rHK_values-zh-rHK.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\Desktop\\nmsu_fall24\\DGD\\final_game_project\\Rust-Rescue\\android\\build\\res\\values-zh-rHK\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "66",
+                        "endOffsets": "177"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "716",
+                        "endColumns": "69",
+                        "endOffsets": "781"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-zh-rHK\\values-zh-rHK.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,147,246,340,434,527,620,716",
+                        "endColumns": "91,98,93,93,92,92,95,100",
+                        "endOffsets": "142,241,335,429,522,615,711,812"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,147,246,340,434,527,620,786",
+                        "endColumns": "91,98,93,93,92,92,95,100",
+                        "endOffsets": "142,241,335,429,522,615,711,882"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-km_values-km.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-km\\values-km.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,150,253,351,451,552,664,776",
+                        "endColumns": "94,102,97,99,100,111,111,100",
+                        "endOffsets": "145,248,346,446,547,659,771,872"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-ja_values-ja.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-ja\\values-ja.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,147,247,341,437,530,623,724",
+                        "endColumns": "91,99,93,95,92,92,100,100",
+                        "endOffsets": "142,242,336,432,525,618,719,820"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,147,247,341,437,530,623,794",
+                        "endColumns": "91,99,93,95,92,92,100,100",
+                        "endOffsets": "142,242,336,432,525,618,719,890"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\Desktop\\nmsu_fall24\\DGD\\final_game_project\\Rust-Rescue\\android\\build\\res\\values-ja\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "66",
+                        "endOffsets": "177"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "724",
+                        "endColumns": "69",
+                        "endOffsets": "789"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-mk_values-mk.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-mk\\values-mk.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,255,352,450,555,658,774",
+                        "endColumns": "97,101,96,97,104,102,115,100",
+                        "endOffsets": "148,250,347,445,550,653,769,870"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-hu_values-hu.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\Desktop\\nmsu_fall24\\DGD\\final_game_project\\Rust-Rescue\\android\\build\\res\\values-hu\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "66",
+                        "endOffsets": "177"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "777",
+                        "endColumns": "69",
+                        "endOffsets": "842"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-hu\\values-hu.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,152,254,356,457,560,667,777",
+                        "endColumns": "96,101,101,100,102,106,109,100",
+                        "endOffsets": "147,249,351,452,555,662,772,873"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,152,254,356,457,560,667,847",
+                        "endColumns": "96,101,101,100,102,106,109,100",
+                        "endOffsets": "147,249,351,452,555,662,772,943"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-in_values-in.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\Desktop\\nmsu_fall24\\DGD\\final_game_project\\Rust-Rescue\\android\\build\\res\\values-in\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "66",
+                        "endOffsets": "177"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "785",
+                        "endColumns": "69",
+                        "endOffsets": "850"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-in\\values-in.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,150,252,349,446,552,670,785",
+                        "endColumns": "94,101,96,96,105,117,114,100",
+                        "endOffsets": "145,247,344,441,547,665,780,881"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,150,252,349,446,552,670,855",
+                        "endColumns": "94,101,96,96,105,117,114,100",
+                        "endOffsets": "145,247,344,441,547,665,780,951"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-hr_values-hr.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-hr\\values-hr.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,260,357,456,560,664,781",
+                        "endColumns": "97,106,96,98,103,103,116,100",
+                        "endOffsets": "148,255,352,451,555,659,776,877"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,260,357,456,560,664,851",
+                        "endColumns": "97,106,96,98,103,103,116,100",
+                        "endOffsets": "148,255,352,451,555,659,776,947"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\Desktop\\nmsu_fall24\\DGD\\final_game_project\\Rust-Rescue\\android\\build\\res\\values-hr\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "66",
+                        "endOffsets": "177"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "781",
+                        "endColumns": "69",
+                        "endOffsets": "846"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-uk_values-uk.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-uk\\values-uk.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,155,257,358,459,564,669,782",
+                        "endColumns": "99,101,100,100,104,104,112,100",
+                        "endOffsets": "150,252,353,454,559,664,777,878"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,155,257,358,459,564,669,852",
+                        "endColumns": "99,101,100,100,104,104,112,100",
+                        "endOffsets": "150,252,353,454,559,664,777,948"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\Desktop\\nmsu_fall24\\DGD\\final_game_project\\Rust-Rescue\\android\\build\\res\\values-uk\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "66",
+                        "endOffsets": "177"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "782",
+                        "endColumns": "69",
+                        "endOffsets": "847"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-vi_values-vi.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\Desktop\\nmsu_fall24\\DGD\\final_game_project\\Rust-Rescue\\android\\build\\res\\values-vi\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "66",
+                        "endOffsets": "177"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "785",
+                        "endColumns": "69",
+                        "endOffsets": "850"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-vi\\values-vi.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,152,254,353,453,556,669,785",
+                        "endColumns": "96,101,98,99,102,112,115,100",
+                        "endOffsets": "147,249,348,448,551,664,780,881"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,152,254,353,453,556,669,855",
+                        "endColumns": "96,101,98,99,102,112,115,100",
+                        "endOffsets": "147,249,348,448,551,664,780,951"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-es-rUS_values-es-rUS.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,154,256,356,454,561,667,787",
+                        "endColumns": "98,101,99,97,106,105,119,100",
+                        "endOffsets": "149,251,351,449,556,662,782,883"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-cs_values-cs.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-cs\\values-cs.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,255,356,455,560,667,786",
+                        "endColumns": "97,101,100,98,104,106,118,100",
+                        "endOffsets": "148,250,351,450,555,662,781,882"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,255,356,455,560,667,856",
+                        "endColumns": "97,101,100,98,104,106,118,100",
+                        "endOffsets": "148,250,351,450,555,662,781,952"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\Desktop\\nmsu_fall24\\DGD\\final_game_project\\Rust-Rescue\\android\\build\\res\\values-cs\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "66",
+                        "endOffsets": "177"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "786",
+                        "endColumns": "69",
+                        "endOffsets": "851"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-pl_values-pl.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-pl\\values-pl.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,152,254,352,451,565,670,792",
+                        "endColumns": "96,101,97,98,113,104,121,100",
+                        "endOffsets": "147,249,347,446,560,665,787,888"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,152,254,352,451,565,670,862",
+                        "endColumns": "96,101,97,98,113,104,121,100",
+                        "endOffsets": "147,249,347,446,560,665,787,958"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\Desktop\\nmsu_fall24\\DGD\\final_game_project\\Rust-Rescue\\android\\build\\res\\values-pl\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "66",
+                        "endOffsets": "177"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "792",
+                        "endColumns": "69",
+                        "endOffsets": "857"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-zu_values-zu.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-zu\\values-zu.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,257,356,459,565,672,785",
+                        "endColumns": "97,103,98,102,105,106,112,100",
+                        "endOffsets": "148,252,351,454,560,667,780,881"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-ne_values-ne.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-ne\\values-ne.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,158,261,363,469,567,667,775",
+                        "endColumns": "102,102,101,105,97,99,107,100",
+                        "endOffsets": "153,256,358,464,562,662,770,871"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-de_values-de.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-de\\values-de.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,255,355,455,563,668,786",
+                        "endColumns": "97,101,99,99,107,104,117,100",
+                        "endOffsets": "148,250,350,450,558,663,781,882"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,255,355,455,563,668,856",
+                        "endColumns": "97,101,99,99,107,104,117,100",
+                        "endOffsets": "148,250,350,450,558,663,781,952"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\Desktop\\nmsu_fall24\\DGD\\final_game_project\\Rust-Rescue\\android\\build\\res\\values-de\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "66",
+                        "endOffsets": "177"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "786",
+                        "endColumns": "69",
+                        "endOffsets": "851"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-bs_values-bs.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-bs\\values-bs.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,255,353,457,561,663,780",
+                        "endColumns": "97,101,97,103,103,101,116,100",
+                        "endOffsets": "148,250,348,452,556,658,775,876"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-kk_values-kk.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-kk\\values-kk.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,150,252,354,457,561,658,769",
+                        "endColumns": "94,101,101,102,103,96,110,100",
+                        "endOffsets": "145,247,349,452,556,653,764,865"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-kn_values-kn.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-kn\\values-kn.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,256,357,463,564,672,800",
+                        "endColumns": "97,102,100,105,100,107,127,100",
+                        "endOffsets": "148,251,352,458,559,667,795,896"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-b+sr+Latn_values-b+sr+Latn.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-b+sr+Latn\\values-b+sr+Latn.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,255,352,456,560,665,781",
+                        "endColumns": "97,101,96,103,103,104,115,100",
+                        "endOffsets": "148,250,347,451,555,660,776,877"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-ta_values-ta.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-ta\\values-ta.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,151,254,353,451,558,673,801",
+                        "endColumns": "95,102,98,97,106,114,127,100",
+                        "endOffsets": "146,249,348,446,553,668,796,897"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-iw_values-iw.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-iw\\values-iw.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,149,251,348,445,546,646,752",
+                        "endColumns": "93,101,96,96,100,99,105,100",
+                        "endOffsets": "144,246,343,440,541,641,747,848"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,149,251,348,445,546,646,822",
+                        "endColumns": "93,101,96,96,100,99,105,100",
+                        "endOffsets": "144,246,343,440,541,641,747,918"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\Desktop\\nmsu_fall24\\DGD\\final_game_project\\Rust-Rescue\\android\\build\\res\\values-iw\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "66",
+                        "endOffsets": "177"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "752",
+                        "endColumns": "69",
+                        "endOffsets": "817"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-ro_values-ro.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-ro\\values-ro.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,255,355,454,556,665,782",
+                        "endColumns": "97,101,99,98,101,108,116,100",
+                        "endOffsets": "148,250,350,449,551,660,777,878"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,255,355,454,556,665,852",
+                        "endColumns": "97,101,99,98,101,108,116,100",
+                        "endOffsets": "148,250,350,449,551,660,777,948"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\Desktop\\nmsu_fall24\\DGD\\final_game_project\\Rust-Rescue\\android\\build\\res\\values-ro\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "66",
+                        "endOffsets": "177"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "782",
+                        "endColumns": "69",
+                        "endOffsets": "847"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-en-rCA_values-en-rCA.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-en-rCA\\values-en-rCA.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,151,253,352,451,555,657,773",
+                        "endColumns": "95,101,98,98,103,101,115,100",
+                        "endOffsets": "146,248,347,446,550,652,768,869"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-hy_values-hy.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-hy\\values-hy.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,155,260,358,457,562,664,775",
+                        "endColumns": "99,104,97,98,104,101,110,100",
+                        "endOffsets": "150,255,353,452,557,659,770,871"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-ur_values-ur.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-ur\\values-ur.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,255,357,461,564,662,776",
+                        "endColumns": "97,101,101,103,102,97,113,100",
+                        "endOffsets": "148,250,352,456,559,657,771,872"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-ms_values-ms.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-ms\\values-ms.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,150,252,349,459,565,683,798",
+                        "endColumns": "94,101,96,109,105,117,114,100",
+                        "endOffsets": "145,247,344,454,560,678,793,894"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-zh-rCN_values-zh-rCN.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,147,248,342,436,529,623,719",
+                        "endColumns": "91,100,93,93,92,93,95,100",
+                        "endOffsets": "142,243,337,431,524,618,714,815"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-as_values-as.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-as\\values-as.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,156,259,367,472,576,676,805",
+                        "endColumns": "100,102,107,104,103,99,128,100",
+                        "endOffsets": "151,254,362,467,571,671,800,901"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-fa_values-fa.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\ec78cfc85816bd35fa163c180d5f4394\\transformed\\jetified-godot-lib.template_debug\\res\\values-fa\\values-fa.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,109,183,241,301,370,440,618,791,893,972",
+                        "endColumns": "53,73,57,59,68,69,177,172,101,78,70",
+                        "endOffsets": "104,178,236,296,365,435,613,786,888,967,1038"
+                    },
+                    "to": {
+                        "startLines": "11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "950,1004,1078,1136,1196,1265,1335,1513,1686,1788,1867",
+                        "endColumns": "53,73,57,59,68,69,177,172,101,78,70",
+                        "endOffsets": "999,1073,1131,1191,1260,1330,1508,1681,1783,1862,1933"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\Desktop\\nmsu_fall24\\DGD\\final_game_project\\Rust-Rescue\\android\\build\\res\\values-fa\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "66",
+                        "endOffsets": "177"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "779",
+                        "endColumns": "69",
+                        "endOffsets": "844"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-fa\\values-fa.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,154,256,355,455,556,662,779",
+                        "endColumns": "98,101,98,99,100,105,116,100",
+                        "endOffsets": "149,251,350,450,551,657,774,875"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,154,256,355,455,556,662,849",
+                        "endColumns": "98,101,98,99,100,105,116,100",
+                        "endOffsets": "149,251,350,450,551,657,774,945"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-nl_values-nl.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-nl\\values-nl.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,157,259,359,459,566,670,789",
+                        "endColumns": "101,101,99,99,106,103,118,100",
+                        "endOffsets": "152,254,354,454,561,665,784,885"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,157,259,359,459,566,670,859",
+                        "endColumns": "101,101,99,99,106,103,118,100",
+                        "endOffsets": "152,254,354,454,561,665,784,955"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\Desktop\\nmsu_fall24\\DGD\\final_game_project\\Rust-Rescue\\android\\build\\res\\values-nl\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "66",
+                        "endOffsets": "177"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "789",
+                        "endColumns": "69",
+                        "endOffsets": "854"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-en-rIN_values-en-rIN.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,151,253,352,451,555,658,774",
+                        "endColumns": "95,101,98,98,103,102,115,100",
+                        "endOffsets": "146,248,347,446,550,653,769,870"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-mn_values-mn.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-mn\\values-mn.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,255,356,454,559,671,790",
+                        "endColumns": "97,101,100,97,104,111,118,100",
+                        "endOffsets": "148,250,351,449,554,666,785,886"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-be_values-be.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-be\\values-be.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,255,355,456,562,665,786",
+                        "endColumns": "97,101,99,100,105,102,120,100",
+                        "endOffsets": "148,250,350,451,557,660,781,882"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-es_values-es.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\Desktop\\nmsu_fall24\\DGD\\final_game_project\\Rust-Rescue\\android\\build\\res\\values-es\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "66",
+                        "endOffsets": "177"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "787",
+                        "endColumns": "69",
+                        "endOffsets": "852"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-es\\values-es.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,154,256,356,454,561,667,787",
+                        "endColumns": "98,101,99,97,106,105,119,100",
+                        "endOffsets": "149,251,351,449,556,662,782,883"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,154,256,356,454,561,667,857",
+                        "endColumns": "98,101,99,97,106,105,119,100",
+                        "endOffsets": "149,251,351,449,556,662,782,953"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-ar_values-ar.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\Desktop\\nmsu_fall24\\DGD\\final_game_project\\Rust-Rescue\\android\\build\\res\\values-ar\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "66",
+                        "endOffsets": "177"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "767",
+                        "endColumns": "69",
+                        "endOffsets": "832"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-ar\\values-ar.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,148,250,345,448,551,653,767",
+                        "endColumns": "92,101,94,102,102,101,113,100",
+                        "endOffsets": "143,245,340,443,546,648,762,863"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,148,250,345,448,551,653,837",
+                        "endColumns": "92,101,94,102,102,101,113,100",
+                        "endOffsets": "143,245,340,443,546,648,762,933"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-v29_values-v29.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\dd89130c4a8ca50a04569d2aa68e9e1e\\transformed\\jetified-core-splashscreen-1.0.1\\res\\values-v29\\values-v29.xml",
+                    "from": {
+                        "startLines": "2,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,374",
+                        "endLines": "6,8",
+                        "endColumns": "12,12",
+                        "endOffsets": "369,464"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-es-rES_values-es-rES.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\Desktop\\nmsu_fall24\\DGD\\final_game_project\\Rust-Rescue\\android\\build\\res\\values-es-rES\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "66",
+                        "endOffsets": "177"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "69",
+                        "endOffsets": "120"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-en-rGB_values-en-rGB.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,151,253,352,451,555,658,774",
+                        "endColumns": "95,101,98,98,103,102,115,100",
+                        "endOffsets": "146,248,347,446,550,653,769,870"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-bg_values-bg.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-bg\\values-bg.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,152,262,364,465,572,677,796",
+                        "endColumns": "96,109,101,100,106,104,118,100",
+                        "endOffsets": "147,257,359,460,567,672,791,892"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,152,262,364,465,572,677,866",
+                        "endColumns": "96,109,101,100,106,104,118,100",
+                        "endOffsets": "147,257,359,460,567,672,791,962"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\Desktop\\nmsu_fall24\\DGD\\final_game_project\\Rust-Rescue\\android\\build\\res\\values-bg\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "66",
+                        "endOffsets": "177"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "796",
+                        "endColumns": "69",
+                        "endOffsets": "861"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-fr-rCA_values-fr-rCA.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-fr-rCA\\values-fr-rCA.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,255,354,456,560,664,778",
+                        "endColumns": "97,101,98,101,103,103,113,100",
+                        "endOffsets": "148,250,349,451,555,659,773,874"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-ml_values-ml.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-ml\\values-ml.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,157,260,362,466,569,670,792",
+                        "endColumns": "101,102,101,103,102,100,121,100",
+                        "endOffsets": "152,255,357,461,564,665,787,888"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-v27_values-v27.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\dd89130c4a8ca50a04569d2aa68e9e1e\\transformed\\jetified-core-splashscreen-1.0.1\\res\\values-v27\\values-v27.xml",
+                    "from": {
+                        "startLines": "2,3,4,7",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,136,229,405",
+                        "endLines": "2,3,6,9",
+                        "endColumns": "80,92,12,12",
+                        "endOffsets": "131,224,400,588"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-sv_values-sv.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\Desktop\\nmsu_fall24\\DGD\\final_game_project\\Rust-Rescue\\android\\build\\res\\values-sv\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "66",
+                        "endOffsets": "177"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "783",
+                        "endColumns": "69",
+                        "endOffsets": "848"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-sv\\values-sv.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,150,252,350,449,557,662,783",
+                        "endColumns": "94,101,97,98,107,104,120,100",
+                        "endOffsets": "145,247,345,444,552,657,778,879"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,150,252,350,449,557,662,853",
+                        "endColumns": "94,101,97,98,107,104,120,100",
+                        "endOffsets": "145,247,345,444,552,657,778,949"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-tr_values-tr.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-tr\\values-tr.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,152,254,352,449,551,657,768",
+                        "endColumns": "96,101,97,96,101,105,110,100",
+                        "endOffsets": "147,249,347,444,546,652,763,864"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,152,254,352,449,551,657,838",
+                        "endColumns": "96,101,97,96,101,105,110,100",
+                        "endOffsets": "147,249,347,444,546,652,763,934"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\Desktop\\nmsu_fall24\\DGD\\final_game_project\\Rust-Rescue\\android\\build\\res\\values-tr\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "66",
+                        "endOffsets": "177"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "768",
+                        "endColumns": "69",
+                        "endOffsets": "833"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-el_values-el.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-el\\values-el.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,256,356,459,567,673,790",
+                        "endColumns": "97,102,99,102,107,105,116,100",
+                        "endOffsets": "148,251,351,454,562,668,785,886"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,256,356,459,567,673,860",
+                        "endColumns": "97,102,99,102,107,105,116,100",
+                        "endOffsets": "148,251,351,454,562,668,785,956"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\Desktop\\nmsu_fall24\\DGD\\final_game_project\\Rust-Rescue\\android\\build\\res\\values-el\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "66",
+                        "endOffsets": "177"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "790",
+                        "endColumns": "69",
+                        "endOffsets": "855"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-en-rAU_values-en-rAU.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,151,253,352,451,555,658,774",
+                        "endColumns": "95,101,98,98,103,102,115,100",
+                        "endOffsets": "146,248,347,446,550,653,769,870"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-pt-rPT_values-pt-rPT.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,152,254,353,453,560,666,787",
+                        "endColumns": "96,101,98,99,106,105,120,100",
+                        "endOffsets": "147,249,348,448,555,661,782,883"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-ca_values-ca.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-ca\\values-ca.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,151,253,352,449,555,660,786",
+                        "endColumns": "95,101,98,96,105,104,125,100",
+                        "endOffsets": "146,248,347,444,550,655,781,882"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,151,253,352,449,555,660,856",
+                        "endColumns": "95,101,98,96,105,104,125,100",
+                        "endOffsets": "146,248,347,444,550,655,781,952"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\Desktop\\nmsu_fall24\\DGD\\final_game_project\\Rust-Rescue\\android\\build\\res\\values-ca\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "66",
+                        "endOffsets": "177"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "786",
+                        "endColumns": "69",
+                        "endOffsets": "851"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-sr_values-sr.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\Desktop\\nmsu_fall24\\DGD\\final_game_project\\Rust-Rescue\\android\\build\\res\\values-sr\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "66",
+                        "endOffsets": "177"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "781",
+                        "endColumns": "69",
+                        "endOffsets": "846"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-sr\\values-sr.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,255,352,456,560,665,781",
+                        "endColumns": "97,101,96,103,103,104,115,100",
+                        "endOffsets": "148,250,347,451,555,660,776,877"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,255,352,456,560,665,851",
+                        "endColumns": "97,101,96,103,103,104,115,100",
+                        "endOffsets": "148,250,347,451,555,660,776,947"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-ky_values-ky.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-ky\\values-ky.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,155,257,360,467,571,675,786",
+                        "endColumns": "99,101,102,106,103,103,110,100",
+                        "endOffsets": "150,252,355,462,566,670,781,882"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-te_values-te.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-te\\values-te.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,157,265,367,468,574,681,805",
+                        "endColumns": "101,107,101,100,105,106,123,100",
+                        "endOffsets": "152,260,362,463,569,676,800,901"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-da_values-da.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-da\\values-da.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,151,253,350,448,555,664,782",
+                        "endColumns": "95,101,96,97,106,108,117,100",
+                        "endOffsets": "146,248,345,443,550,659,777,878"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,151,253,350,448,555,664,852",
+                        "endColumns": "95,101,96,97,106,108,117,100",
+                        "endOffsets": "146,248,345,443,550,659,777,948"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\Desktop\\nmsu_fall24\\DGD\\final_game_project\\Rust-Rescue\\android\\build\\res\\values-da\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "66",
+                        "endOffsets": "177"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "782",
+                        "endColumns": "69",
+                        "endOffsets": "847"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-night-v8_values-night-v8.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\dd89130c4a8ca50a04569d2aa68e9e1e\\transformed\\jetified-core-splashscreen-1.0.1\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "85",
+                        "endOffsets": "136"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-bn_values-bn.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-bn\\values-bn.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,154,256,358,461,562,664,784",
+                        "endColumns": "98,101,101,102,100,101,119,100",
+                        "endOffsets": "149,251,353,456,557,659,779,880"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-sk_values-sk.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\Desktop\\nmsu_fall24\\DGD\\final_game_project\\Rust-Rescue\\android\\build\\res\\values-sk\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "66",
+                        "endOffsets": "177"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "792",
+                        "endColumns": "69",
+                        "endOffsets": "857"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-sk\\values-sk.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,151,253,354,452,562,670,792",
+                        "endColumns": "95,101,100,97,109,107,121,100",
+                        "endOffsets": "146,248,349,447,557,665,787,888"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,151,253,354,452,562,670,862",
+                        "endColumns": "95,101,100,97,109,107,121,100",
+                        "endOffsets": "146,248,349,447,557,665,787,958"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-pt-rBR_values-pt-rBR.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-pt-rBR\\values-pt-rBR.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,152,254,353,453,560,670,790",
+                        "endColumns": "96,101,98,99,106,109,119,100",
+                        "endOffsets": "147,249,348,448,555,665,785,886"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-hi_values-hi.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-hi\\values-hi.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,256,361,462,575,681,808",
+                        "endColumns": "97,102,104,100,112,105,126,100",
+                        "endOffsets": "148,251,356,457,570,676,803,904"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,256,361,462,575,681,878",
+                        "endColumns": "97,102,104,100,112,105,126,100",
+                        "endOffsets": "148,251,356,457,570,676,803,974"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\Desktop\\nmsu_fall24\\DGD\\final_game_project\\Rust-Rescue\\android\\build\\res\\values-hi\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "66",
+                        "endOffsets": "177"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "808",
+                        "endColumns": "69",
+                        "endOffsets": "873"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-it_values-it.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-it\\values-it.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,255,354,456,565,672,802",
+                        "endColumns": "97,101,98,101,108,106,129,100",
+                        "endOffsets": "148,250,349,451,560,667,797,898"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,255,354,456,565,672,872",
+                        "endColumns": "97,101,98,101,108,106,129,100",
+                        "endOffsets": "148,250,349,451,560,667,797,968"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\Desktop\\nmsu_fall24\\DGD\\final_game_project\\Rust-Rescue\\android\\build\\res\\values-it\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "66",
+                        "endOffsets": "177"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "802",
+                        "endColumns": "69",
+                        "endOffsets": "867"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-v21_values-v21.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,173,237,304,368,484,610,736,864,1036",
+                        "endLines": "2,3,4,5,6,7,8,9,12,17",
+                        "endColumns": "117,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "168,232,299,363,479,605,731,859,1031,1383"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-lt_values-lt.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\Desktop\\nmsu_fall24\\DGD\\final_game_project\\Rust-Rescue\\android\\build\\res\\values-lt\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "66",
+                        "endOffsets": "177"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "806",
+                        "endColumns": "69",
+                        "endOffsets": "871"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-lt\\values-lt.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,263,362,465,576,686,806",
+                        "endColumns": "97,109,98,102,110,109,119,100",
+                        "endOffsets": "148,258,357,460,571,681,801,902"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,263,362,465,576,686,876",
+                        "endColumns": "97,109,98,102,110,109,119,100",
+                        "endOffsets": "148,258,357,460,571,681,801,972"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-en_values-en.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\Desktop\\nmsu_fall24\\DGD\\final_game_project\\Rust-Rescue\\android\\build\\res\\values-en\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "66",
+                        "endOffsets": "177"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "69",
+                        "endOffsets": "120"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-am_values-am.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-am\\values-am.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,148,248,345,444,540,642,742",
+                        "endColumns": "92,99,96,98,95,101,99,100",
+                        "endOffsets": "143,243,340,439,535,637,737,838"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-gu_values-gu.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-gu\\values-gu.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,149,252,349,451,553,651,773",
+                        "endColumns": "93,102,96,101,101,97,121,100",
+                        "endOffsets": "144,247,344,446,548,646,768,869"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-watch-v20_values-watch-v20.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\dd89130c4a8ca50a04569d2aa68e9e1e\\transformed\\jetified-core-splashscreen-1.0.1\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,129,205,280,357,428,496,566",
+                        "endColumns": "73,75,74,76,70,67,69,67",
+                        "endOffsets": "124,200,275,352,423,491,561,629"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-pa_values-pa.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-pa\\values-pa.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,255,358,459,561,659,788",
+                        "endColumns": "97,101,102,100,101,97,128,100",
+                        "endOffsets": "148,250,353,454,556,654,783,884"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-mr_values-mr.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-mr\\values-mr.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,155,259,360,463,565,670,787",
+                        "endColumns": "99,103,100,102,101,104,116,100",
+                        "endOffsets": "150,254,355,458,560,665,782,883"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-zh-rTW_values-zh-rTW.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,147,246,340,434,527,620,716",
+                        "endColumns": "91,98,93,93,92,92,95,100",
+                        "endOffsets": "142,241,335,429,522,615,711,812"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,147,246,340,434,527,620,786",
+                        "endColumns": "91,98,93,93,92,92,95,100",
+                        "endOffsets": "142,241,335,429,522,615,711,882"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\Desktop\\nmsu_fall24\\DGD\\final_game_project\\Rust-Rescue\\android\\build\\res\\values-zh-rTW\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "66",
+                        "endOffsets": "177"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "716",
+                        "endColumns": "69",
+                        "endOffsets": "781"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\dd89130c4a8ca50a04569d2aa68e9e1e\\transformed\\jetified-core-splashscreen-1.0.1\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,21,23,32,45",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,115,174,243,315,378,450,524,600,676,753,824,893,964,1032,1113,1205,1298,1407,1528,1988,2763",
+                        "endLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,20,22,31,44,48",
+                        "endColumns": "59,58,68,71,62,71,73,75,75,76,70,68,70,67,80,91,92,12,12,12,12,12",
+                        "endOffsets": "110,169,238,310,373,445,519,595,671,748,819,888,959,1027,1108,1200,1293,1402,1523,1983,2758,3031"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,37,38,39,40,41,42,43,106,155,156,157,158,160,201,210,223",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "115,175,234,303,375,438,2399,2473,2549,2625,2702,2773,2842,6448,10511,10592,10684,10777,10886,12984,13444,14219",
+                        "endLines": "3,4,5,6,7,8,37,38,39,40,41,42,43,106,155,156,157,159,161,209,222,226",
+                        "endColumns": "59,58,68,71,62,71,73,75,75,76,70,68,70,67,80,91,92,12,12,12,12,12",
+                        "endOffsets": "170,229,298,370,433,505,2468,2544,2620,2697,2768,2837,2908,6511,10587,10679,10772,10881,11002,13439,14214,14487"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\eec1fdec4c4dbf9d360c66808bd58e65\\transformed\\lifecycle-viewmodel-2.6.2\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "49",
+                        "endOffsets": "100"
+                    },
+                    "to": {
+                        "startLines": "104",
+                        "startColumns": "4",
+                        "startOffsets": "6334",
+                        "endColumns": "49",
+                        "endOffsets": "6379"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\9ff93d6ffd75f1d8fc40f2473fd77de1\\transformed\\lifecycle-runtime-2.6.2\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "42",
+                        "endOffsets": "93"
+                    },
+                    "to": {
+                        "startLines": "101",
+                        "startColumns": "4",
+                        "startOffsets": "6177",
+                        "endColumns": "42",
+                        "endOffsets": "6215"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\c03fac50118fed4c446fe2dbbb7ccb60\\transformed\\jetified-activity-1.8.1\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,97",
+                        "endColumns": "41,59",
+                        "endOffsets": "92,152"
+                    },
+                    "to": {
+                        "startLines": "83,102",
+                        "startColumns": "4,4",
+                        "startOffsets": "5211,6220",
+                        "endColumns": "41,59",
+                        "endOffsets": "5248,6275"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\Desktop\\nmsu_fall24\\DGD\\final_game_project\\Rust-Rescue\\android\\build\\res\\values\\themes.xml",
+                    "from": {
+                        "startLines": "3,5",
+                        "startColumns": "1,1",
+                        "startOffsets": "53,136",
+                        "endLines": "3,17",
+                        "endColumns": "81,9",
+                        "endOffsets": "133,748"
+                    },
+                    "to": {
+                        "startLines": "165,166",
+                        "startColumns": "4,4",
+                        "startOffsets": "11134,11219",
+                        "endLines": "165,175",
+                        "endColumns": "84,9",
+                        "endOffsets": "11214,11531"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\72bc74126f9cd461c513810c4d33efc5\\transformed\\jetified-savedstate-1.2.1\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "53",
+                        "endOffsets": "104"
+                    },
+                    "to": {
+                        "startLines": "103",
+                        "startColumns": "4",
+                        "startOffsets": "6280",
+                        "endColumns": "53",
+                        "endOffsets": "6329"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\34ec294f6bdde40744063ea74c4e92c4\\transformed\\fragment-1.7.1\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,10",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,112,177,241,411",
+                        "endLines": "2,3,4,9,13",
+                        "endColumns": "56,64,63,24,24",
+                        "endOffsets": "107,172,236,406,555"
+                    },
+                    "to": {
+                        "startLines": "80,84,105,299,304",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "5084,5253,6384,17547,17717",
+                        "endLines": "80,84,105,303,307",
+                        "endColumns": "56,64,63,24,24",
+                        "endOffsets": "5136,5313,6443,17712,17861"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\ec78cfc85816bd35fa163c180d5f4394\\transformed\\jetified-godot-lib.template_debug\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,44,47,54",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,103,202,417,476,553,632,694,773,841,898,967,1078,1184,1296,1377,1446,1514,1620,1729,1818,1938,2034,2136,2188,2242,2316,2377,2440,2512,2581,2633,2800,2982,3085,3165,3236,3300,3366,3493,3619,4005",
+                        "endLines": "2,3,4,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,43,46,53,57",
+                        "endColumns": "47,98,141,58,76,78,61,78,67,56,68,110,105,111,80,68,67,105,108,88,119,95,101,51,53,73,60,62,71,68,51,166,181,102,79,70,63,65,12,12,12,12",
+                        "endOffsets": "98,197,339,471,548,627,689,768,836,893,962,1073,1179,1291,1372,1441,1509,1615,1724,1813,1933,2029,2131,2183,2237,2311,2372,2435,2507,2576,2628,2795,2977,3080,3160,3231,3295,3361,3488,3614,4000,4178"
+                    },
+                    "to": {
+                        "startLines": "44,116,117,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,141,142,143,144,145,146,147,148,149,150,151,152,153,154,162,176,179,186",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2913,7180,7279,7491,7550,7627,7706,7768,7847,7915,7972,8041,8152,8258,8370,8451,8520,8588,8694,8803,8892,9012,9108,9210,9333,9387,9461,9522,9585,9657,9726,9778,9945,10127,10230,10310,10381,10445,11007,11536,11662,12048",
+                        "endLines": "44,116,117,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,141,142,143,144,145,146,147,148,149,150,151,152,153,154,164,178,185,189",
+                        "endColumns": "47,98,141,58,76,78,61,78,67,56,68,110,105,111,80,68,67,105,108,88,119,95,101,51,53,73,60,62,71,68,51,166,181,102,79,70,63,65,12,12,12,12",
+                        "endOffsets": "2956,7274,7416,7545,7622,7701,7763,7842,7910,7967,8036,8147,8253,8365,8446,8515,8583,8689,8798,8887,9007,9103,9205,9257,9382,9456,9517,9580,9652,9721,9773,9940,10122,10225,10305,10376,10440,10506,11129,11657,12043,12221"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,98,99,103,104,105,106,112,122,155,176,209",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,115,187,275,340,406,475,538,608,676,748,818,879,953,1026,1087,1148,1210,1274,1336,1397,1465,1565,1625,1691,1764,1833,1890,1942,2004,2076,2152,2217,2276,2335,2395,2455,2515,2575,2635,2695,2755,2815,2875,2935,2994,3054,3114,3174,3234,3294,3354,3414,3474,3534,3594,3653,3713,3773,3832,3891,3950,4009,4068,4127,4162,4197,4252,4315,4370,4428,4486,4547,4610,4667,4718,4768,4829,4886,4952,4986,5021,5056,5126,5193,5265,5334,5403,5477,5549,5637,5708,5825,6026,6136,6337,6466,6538,6605,6808,7109,8840,9521,10203",
+                        "endLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,97,98,102,103,104,105,111,121,154,175,208,214",
+                        "endColumns": "59,71,87,64,65,68,62,69,67,71,69,60,73,72,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,71,75,64,58,58,59,59,59,59,59,59,59,59,59,59,58,59,59,59,59,59,59,59,59,59,59,58,59,59,58,58,58,58,58,58,34,34,54,62,54,57,57,60,62,56,50,49,60,56,65,33,34,34,69,66,71,68,68,73,71,87,70,116,12,109,12,128,71,66,24,24,24,24,24,24",
+                        "endOffsets": "110,182,270,335,401,470,533,603,671,743,813,874,948,1021,1082,1143,1205,1269,1331,1392,1460,1560,1620,1686,1759,1828,1885,1937,1999,2071,2147,2212,2271,2330,2390,2450,2510,2570,2630,2690,2750,2810,2870,2930,2989,3049,3109,3169,3229,3289,3349,3409,3469,3529,3589,3648,3708,3768,3827,3886,3945,4004,4063,4122,4157,4192,4247,4310,4365,4423,4481,4542,4605,4662,4713,4763,4824,4881,4947,4981,5016,5051,5121,5188,5260,5329,5398,5472,5544,5632,5703,5820,6021,6131,6332,6461,6533,6600,6803,7104,8835,9516,10198,10365"
+                    },
+                    "to": {
+                        "startLines": "2,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,81,82,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,107,109,110,111,112,113,114,115,140,190,191,195,196,200,227,228,229,235,245,278,308,341",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,510,582,670,735,801,870,933,1003,1071,1143,1213,1274,1348,1421,1482,1543,1605,1669,1731,1792,1860,1960,2020,2086,2159,2228,2285,2337,2961,3033,3109,3174,3233,3292,3352,3412,3472,3532,3592,3652,3712,3772,3832,3892,3951,4011,4071,4131,4191,4251,4311,4371,4431,4491,4551,4610,4670,4730,4789,4848,4907,4966,5025,5141,5176,5318,5373,5436,5491,5549,5607,5668,5731,5788,5839,5889,5950,6007,6073,6107,6142,6516,6669,6736,6808,6877,6946,7020,7092,9262,12226,12343,12544,12654,12855,14492,14564,14631,14834,15135,16866,17866,18548",
+                        "endLines": "2,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,81,82,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,107,109,110,111,112,113,114,115,140,190,194,195,199,200,227,228,234,244,277,298,340,346",
+                        "endColumns": "59,71,87,64,65,68,62,69,67,71,69,60,73,72,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,71,75,64,58,58,59,59,59,59,59,59,59,59,59,59,58,59,59,59,59,59,59,59,59,59,59,58,59,59,58,58,58,58,58,58,34,34,54,62,54,57,57,60,62,56,50,49,60,56,65,33,34,34,69,66,71,68,68,73,71,87,70,116,12,109,12,128,71,66,24,24,24,24,24,24",
+                        "endOffsets": "110,577,665,730,796,865,928,998,1066,1138,1208,1269,1343,1416,1477,1538,1600,1664,1726,1787,1855,1955,2015,2081,2154,2223,2280,2332,2394,3028,3104,3169,3228,3287,3347,3407,3467,3527,3587,3647,3707,3767,3827,3887,3946,4006,4066,4126,4186,4246,4306,4366,4426,4486,4546,4605,4665,4725,4784,4843,4902,4961,5020,5079,5171,5206,5368,5431,5486,5544,5602,5663,5726,5783,5834,5884,5945,6002,6068,6102,6137,6172,6581,6731,6803,6872,6941,7015,7087,7175,9328,12338,12539,12649,12850,12979,14559,14626,14829,15130,16861,17542,18543,18710"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\9e5db9b26d9392a98e8f1e9350d92494\\transformed\\jetified-startup-runtime-1.1.1\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "82",
+                        "endOffsets": "133"
+                    },
+                    "to": {
+                        "startLines": "108",
+                        "startColumns": "4",
+                        "startOffsets": "6586",
+                        "endColumns": "82",
+                        "endOffsets": "6664"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\Desktop\\nmsu_fall24\\DGD\\final_game_project\\Rust-Rescue\\android\\build\\res\\values\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "66",
+                        "endOffsets": "177"
+                    },
+                    "to": {
+                        "startLines": "118",
+                        "startColumns": "4",
+                        "startOffsets": "7421",
+                        "endColumns": "69",
+                        "endOffsets": "7486"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-tl_values-tl.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\Desktop\\nmsu_fall24\\DGD\\final_game_project\\Rust-Rescue\\android\\build\\res\\values-tl\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "66",
+                        "endOffsets": "177"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "789",
+                        "endColumns": "69",
+                        "endOffsets": "854"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-tl\\values-tl.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,152,254,355,452,559,667,789",
+                        "endColumns": "96,101,100,96,106,107,121,100",
+                        "endOffsets": "147,249,350,447,554,662,784,885"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,152,254,355,452,559,667,859",
+                        "endColumns": "96,101,100,96,106,107,121,100",
+                        "endOffsets": "147,249,350,447,554,662,784,955"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-lv_values-lv.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\Desktop\\nmsu_fall24\\DGD\\final_game_project\\Rust-Rescue\\android\\build\\res\\values-lv\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "66",
+                        "endOffsets": "177"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "786",
+                        "endColumns": "69",
+                        "endOffsets": "851"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-lv\\values-lv.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,255,355,456,563,671,786",
+                        "endColumns": "97,101,99,100,106,107,114,100",
+                        "endOffsets": "148,250,350,451,558,666,781,882"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,255,355,456,563,671,856",
+                        "endColumns": "97,101,99,100,106,107,114,100",
+                        "endOffsets": "148,250,350,451,558,666,781,952"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-zh_values-zh.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\Desktop\\nmsu_fall24\\DGD\\final_game_project\\Rust-Rescue\\android\\build\\res\\values-zh\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "66",
+                        "endOffsets": "177"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "69",
+                        "endOffsets": "120"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-ko_values-ko.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-ko\\values-ko.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,147,247,341,438,534,632,732",
+                        "endColumns": "91,99,93,96,95,97,99,100",
+                        "endOffsets": "142,242,336,433,529,627,727,828"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,31",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,147,247,341,438,534,632,2283",
+                        "endColumns": "91,99,93,96,95,97,99,100",
+                        "endOffsets": "142,242,336,433,529,627,727,2379"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\Desktop\\nmsu_fall24\\DGD\\final_game_project\\Rust-Rescue\\android\\build\\res\\values-ko\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "66",
+                        "endOffsets": "177"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "732",
+                        "endColumns": "69",
+                        "endOffsets": "797"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\ec78cfc85816bd35fa163c180d5f4394\\transformed\\jetified-godot-lib.template_debug\\res\\values-ko\\values-ko.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,181,246,298,357,410,459,518,605,686,767,829,884,946,1046,1139,1215,1310,1397,1489,1536,1586,1649,1705,1762,1828,1890,1999,2115,2201,2271,2332,2387",
+                        "endColumns": "58,66,64,51,58,52,48,58,86,80,80,61,54,61,99,92,75,94,86,91,46,49,62,55,56,65,61,108,115,85,69,60,54,63",
+                        "endOffsets": "109,176,241,293,352,405,454,513,600,681,762,824,879,941,1041,1134,1210,1305,1392,1484,1531,1581,1644,1700,1757,1823,1885,1994,2110,2196,2266,2327,2382,2446"
+                    },
+                    "to": {
+                        "startLines": "10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,32,33,34,35,36,37,38,39,40,41,42,43,44",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "802,861,928,993,1045,1104,1157,1206,1265,1352,1433,1514,1576,1631,1693,1793,1886,1962,2057,2144,2236,2384,2434,2497,2553,2610,2676,2738,2847,2963,3049,3119,3180,3235",
+                        "endColumns": "58,66,64,51,58,52,48,58,86,80,80,61,54,61,99,92,75,94,86,91,46,49,62,55,56,65,61,108,115,85,69,60,54,63",
+                        "endOffsets": "856,923,988,1040,1099,1152,1201,1260,1347,1428,1509,1571,1626,1688,1788,1881,1957,2052,2139,2231,2278,2429,2492,2548,2605,2671,2733,2842,2958,3044,3114,3175,3230,3294"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-gl_values-gl.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-gl\\values-gl.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,154,256,356,454,561,667,783",
+                        "endColumns": "98,101,99,97,106,105,115,100",
+                        "endOffsets": "149,251,351,449,556,662,778,879"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-my_values-my.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-my\\values-my.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,158,262,365,467,572,678,797",
+                        "endColumns": "102,103,102,101,104,105,118,100",
+                        "endOffsets": "153,257,360,462,567,673,792,893"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-v31_values-v31.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\dd89130c4a8ca50a04569d2aa68e9e1e\\transformed\\jetified-core-splashscreen-1.0.1\\res\\values-v31\\values-v31.xml",
+                    "from": {
+                        "startLines": "2,9",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,473",
+                        "endLines": "8,13",
+                        "endColumns": "12,12",
+                        "endOffsets": "468,697"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-si_values-si.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-si\\values-si.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,157,260,365,470,569,673,787",
+                        "endColumns": "101,102,104,104,98,103,113,100",
+                        "endOffsets": "152,255,360,465,564,668,782,883"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-ru_values-ru.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-ru\\values-ru.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,255,356,457,562,665,782",
+                        "endColumns": "97,101,100,100,104,102,116,100",
+                        "endOffsets": "148,250,351,452,557,660,777,878"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,255,356,457,562,665,852",
+                        "endColumns": "97,101,100,100,104,102,116,100",
+                        "endOffsets": "148,250,351,452,557,660,777,948"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\Desktop\\nmsu_fall24\\DGD\\final_game_project\\Rust-Rescue\\android\\build\\res\\values-ru\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "66",
+                        "endOffsets": "177"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "782",
+                        "endColumns": "69",
+                        "endOffsets": "847"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-eu_values-eu.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-eu\\values-eu.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,256,356,459,564,667,786",
+                        "endColumns": "97,102,99,102,104,102,118,100",
+                        "endOffsets": "148,251,351,454,559,662,781,882"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-af_values-af.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-af\\values-af.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,255,353,451,558,667,787",
+                        "endColumns": "97,101,97,97,106,108,119,100",
+                        "endOffsets": "148,250,348,446,553,662,782,883"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-20:/values-or_values-or.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-or\\values-or.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,158,260,363,468,569,671,790",
+                        "endColumns": "102,101,102,104,100,101,118,100",
+                        "endOffsets": "153,255,358,463,564,666,785,886"
+                    }
+                }
+            ]
+        }
+    ]
+}

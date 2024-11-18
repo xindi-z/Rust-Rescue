@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.godot.game-mergeDebugResources-18:/values-lt/values-lt.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\Desktop\\nmsu_fall24\\DGD\\final_game_project\\Rust-Rescue\\android\\build\\res\\values-lt\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "66",
+                        "endOffsets": "177"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "806",
+                        "endColumns": "69",
+                        "endOffsets": "871"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-lt\\values-lt.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,263,362,465,576,686,806",
+                        "endColumns": "97,109,98,102,110,109,119,100",
+                        "endOffsets": "148,258,357,460,571,681,801,902"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,263,362,465,576,686,876",
+                        "endColumns": "97,109,98,102,110,109,119,100",
+                        "endOffsets": "148,258,357,460,571,681,801,972"
+                    }
+                }
+            ]
+        }
+    ]
+}
