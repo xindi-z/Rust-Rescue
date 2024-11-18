@@ -10,6 +10,11 @@ public partial class test : Node2D
     private RichTextLabel text;
     private RescuedPrompt rescuedlPrompt;
 
+
+// define signal
+	// [Signal]
+    // public delegate void AnimalRescued();
+
 	// Called when the node enters the scene tree for the first time.
 	public override void _Ready()
 	{
