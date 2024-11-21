@@ -1,9 +1,9 @@
 fc8a56933c4b1c8d796fdb8f7a9f9475
-::res://::1732147107
+::res://::1732226756
 3d_character.tscn::PackedScene::2547706291817148536::1732145323::0::1::::<><>::uid://b0ymlfy8mxtj4::::res://Player/justModel.glb
 3d_model.tscn::PackedScene::7947950159406217321::1731901681::0::1::::<><>::uid://sxqdhofh4tsp::::res://assets/3d_models/justModel.glb
 android_geolocation_plugin.gd::GDScript::-1::1731876714::0::1::::AndroidGeolocationPlugin<>Node<>::
-export_presets.cfg::TextFile::-1::1732146940::0::1::::<><>::
+export_presets.cfg::TextFile::-1::1732148087::0::1::::<><>::
 Godot-OSM-POC.apple-touch-icon.png::CompressedTexture2D::720533637610834784::1731016621::1732145411::1::::<><>::
 Godot-OSM-POC.icon.png::CompressedTexture2D::3018526979835777089::1731016621::1732145411::1::::<><>::
 Godot-OSM-POC.png::CompressedTexture2D::867422257067221698::1731016621::1732145411::1::::<><>::
@@ -12,9 +12,9 @@ index.apple-touch-icon.png::CompressedTexture2D::1090874205050028775::1731903231
 index.icon.png::CompressedTexture2D::6605254131721877110::1731903231::1732145411::1::::<><>::
 index.png::CompressedTexture2D::5731870434718265771::1731903231::1732145411::1::::<><>::
 main.gd::GDScript::-1::1732145342::0::1::::<>RefCounted<>::
-main.tscn::PackedScene::7702588047323913116::1732146403::0::1::::<><>::uid://dpas5wq75oivi::::res://Map/map_container.tscn<>uid://bnkuec8jffdiw::::res://Player/player.tscn<>uid://debwn8vc5ptqy::::res://test.tscn<>res://android_geolocation_plugin.gd
+main.tscn::PackedScene::7702588047323913116::1732148042::0::1::::<><>::uid://dpas5wq75oivi::::res://Map/map_container.tscn<>uid://bnkuec8jffdiw::::res://Player/player.tscn<>uid://debwn8vc5ptqy::::res://test.tscn<>res://android_geolocation_plugin.gd
 main_menu.gd::GDScript::-1::1731899220::0::1::::<>Control<>::
-main_menu.tscn::PackedScene::7920502701510838433::1732146302::0::1::::<><>::res://main_menu.gd<>uid://c3ohgm1hxle0o::::res://assets/5.png
+main_menu.tscn::PackedScene::7920502701510838433::1732147364::0::1::::<><>::res://main_menu.gd<>uid://c3ohgm1hxle0o::::res://assets/5.png
 RedCarWalk (1).png::CompressedTexture2D::8784913064846845340::1731972292::1732145411::1::::<><>::
 RedCarWalk (2).png::CompressedTexture2D::7649199202205389003::1731972292::1732145411::1::::<><>::
 RescuedPrompt.cs::CSharpScript::-1::1731972292::0::1::::<>Window<>::
@@ -29,6 +29,7 @@ plugin.cfg::TextFile::-1::1731876714::0::1::::<><>::
 ::res://addons/GeolocationPlugin/bin/::1731874828
 ::res://addons/GeolocationPlugin/bin/debug/::1731874828
 ::res://addons/GeolocationPlugin/bin/release/::1731874828
+::res://android/::1732147138
 ::res://assets/::1732145412
 5.png::CompressedTexture2D::6767466682315078424::1731898409::1732145412::1::::<><>::
 ::res://assets/3d_models/::1732145412
@@ -37,8 +38,8 @@ justModel.glb::PackedScene::1311857092622342583::1731900241::1732145412::1::::<>
 Fitz Intro Song - Wii Shop Channel.mp3::AudioStreamMP3::6901348843936541802::1731899692::1732145411::1::::<><>::
 ::res://Images/::1732145411
 player_view_phl.png::CompressedTexture2D::509680318328548421::1731016447::1732145411::1::::<><>::
-::res://Map/::1732146402
-Map_container.gd::GDScript::-1::1732146402::0::1::::<>Node3D<>::
+::res://Map/::1732148042
+Map_container.gd::GDScript::-1::1732148042::0::1::::<>Node3D<>::
 map_container.tscn::PackedScene::8213242367061889858::1732144863::0::1::::<><>::res://Map/Map_container.gd
 map_tile.gd::GDScript::-1::1731876714::0::1::::<>Node<>::
 map_tile.tscn::PackedScene::8868636729884472457::1732144863::0::1::::<><>::res://Map/map_tile.gd

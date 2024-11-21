@@ -134,7 +134,14 @@ func _physics_process(delta):
 
 # converts latitude and longitude into grid coordinates, correcting for the
 # distortion that happens when you represent the globe on a 2D map
-#func _mercator_projection(lat: float, lon: float, zoom: int ) -> Dictionary: 
+#func _mercator_projection(lat: float, lon: float, zoom: int ) -> Dictionary:
+
+# function to rotate character direction
+func _input(event: InputEvent) -> void:
+	if event is InputEventScreenDrag:
+		var tempRot = rotation.y - event.relative.x / 1000 * 3
+		rotation.y = tempRot
+ 
 func _mercator_projection(lat: float, lon: float, zoom: int) -> Vector2:
 	var n = 2.0 ** zoom
 	var x_tile = floor((lon + 180.0) / 360.0 * n)
