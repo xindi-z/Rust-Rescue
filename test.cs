@@ -6,14 +6,14 @@ public partial class test : Node2D
 {
 
 
-    private SerialPort serialPort;
-    private RichTextLabel text;
-    private RescuedPrompt rescuedlPrompt;
+	private SerialPort serialPort;
+	private RichTextLabel text;
+	private RescuedPrompt rescuedlPrompt;
 
 
 // define signal
 	// [Signal]
-    // public delegate void AnimalRescued();
+	// public delegate void AnimalRescued();
 
 	// Called when the node enters the scene tree for the first time.
 	public override void _Ready()
@@ -48,13 +48,13 @@ public partial class test : Node2D
 
 	}
 
-	    public override void _ExitTree()
-    {
-        // close port
-        if (serialPort.IsOpen)
-        {
-            serialPort.Close();
-        }
-    }
+		public override void _ExitTree()
+	{
+		// close port
+		if (serialPort.IsOpen)
+		{
+			serialPort.Close();
+		}
+	}
 
 }

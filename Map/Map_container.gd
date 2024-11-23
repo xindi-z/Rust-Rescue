@@ -19,36 +19,31 @@ const speed = 1
 @export var grid_height = 10
 @export var tile_scale = 1.0
 
-# Variables to track GPS updates
-var previous_latitude: float = latitude
-var previous_longitude: float = longitude
-var new_lat : float = 32.28290097299436
-var new_lon : float = -106.74787421312638
+
+#var new_lat : float = 32.28290097299436
+#var new_lon : float = -106.74787421312638
 var new_latitude: float = 0.0
 var new_longitude: float = 0.0
 
-var previous_coords = Vector2()
-var current_coords = Vector2()
+var target = Vector3.ZERO
+
+
 
 var initialized = false
-@export var gps_scale = 100.0  # Adjust this value for scaling the GPS movement
-@export var meters_to_world_scale = 0.0001  # Adjust this value for scaling GPS movement sensitivity
+
 
 
 
 
 func _ready():
-	#log_label = $"../Control/Label"
-	#android_plugin.android_location_permission_updated.connect(self._on_location_permission)
-	#current_coords = _mercator_projection(latitude, longitude, zoom)
-	#previous_coords = _mercator_projection(new_lat, new_lon, zoom)
-	#generate_grid(current_coords["x"], current_coords["y"], Vector3(0, 0, 0))
 	var coords = _mercator_projection(latitude, longitude, zoom)
-	var dest = _mercator_projection(new_lat, new_lon, zoom)
-	print("origin: ", coords)
-	print("Target: ", dest)
+	#var dest = _mercator_projection(new_lat, new_lon, zoom)
+	#print("origin: ", coords)
+	#print("Target: ", dest)
 	generate_grid(coords.x, coords.y, Vector3(0, 0, 0))
-	#android_plugin.android_location_updated.connect(self._on_location_update)
+	new_latitude = latitude
+	new_longitude = longitude
+	android_plugin.android_location_updated.connect(self._on_location_update)
 	
 	
 	#log_label.text = str('Location Update: Latitude[',latitude, '], Longitude[', longitude, ']')
@@ -59,14 +54,9 @@ func _on_location_update(location_dictionary: Dictionary) -> void:
 	#log_label = $"../Control/Label"
 	new_latitude = location_dictionary["latitude"]
 	new_longitude = location_dictionary["longitude"]
-	
-	current_coords = _mercator_projection(new_latitude, new_longitude, zoom)
-	
 	log_label.text = str('Location Update: Latitude[', new_latitude, '], Longitude[', new_longitude, ']')
 	
-	if !initialized:
-		initialized = true
-		previous_coords = current_coords
+	
 	
 
 
@@ -95,11 +85,8 @@ func create_tile(x: int, y: int) -> Node3D:
 
 # move the world under the player
 func _physics_process(delta):
-	var direction = Vector3.ZERO
-	var target = Vector3(-3, 0 , 1)
-	var target_coords = _mercator_projection(new_lat, new_lon, zoom)
-	#target = Vector3(target_coords.x, 0, target_coords.y)
-	#print(target)
+	target = calculate_movement(new_latitude, new_longitude, latitude, longitude)
+	log_label.text = str('Target: ', target)
 	var moving: bool = true
 	if moving:
 		# Move towards the target point at a fixed speed
@@ -130,24 +117,31 @@ func _physics_process(delta):
 		# Update previous coordinates after applying the movement
 		#previous_latitude = new_latitude
 		#previous_longitude = new_longitude    
-	if Input.is_action_pressed("up"):
-		direction.z += 1
-	if Input.is_action_pressed("down"):
-		direction.z -= 1
-	if Input.is_action_pressed("left"):
-		direction.x += 1
-	if Input.is_action_pressed("right"):
-		direction.x -= 1
-	#print(delta_coords)
-	var movement = direction * speed * delta
-	#var movement = Vector3(delta_coords.x, 0, -delta_coords.y) * 0.1 * delta
-	#log_label.text = str('Location Update: ', movement)
-	for tile in tile_bucket.get_children():
-		tile.position = tile.position + movement
+	#if Input.is_action_pressed("up"):
+		#direction.z += 1
+	#if Input.is_action_pressed("down"):
+		#direction.z -= 1
+	#if Input.is_action_pressed("left"):
+		#direction.x += 1
+	#if Input.is_action_pressed("right"):
+		#direction.x -= 1
+	##print(delta_coords)
+	#var movement = direction * speed * delta
+	##var movement = Vector3(delta_coords.x, 0, -delta_coords.y) * 0.1 * delta
+	##log_label.text = str('Location Update: ', movement)
+	#for tile in tile_bucket.get_children():
+		#tile.position = tile.position + movement
 
 # converts latitude and longitude into grid coordinates, correcting for the
 # distortion that happens when you represent the globe on a 2D map
-#func _mercator_projection(lat: float, lon: float, zoom: int ) -> Dictionary: 
+#func _mercator_projection(lat: float, lon: float, zoom: int ) -> Dictionary:
+
+# function to rotate character direction
+func _input(event: InputEvent) -> void:
+	if event is InputEventScreenDrag:
+		var tempRot = rotation.y - event.relative.x / 1000 * 3
+		rotation.y = tempRot
+ 
 func _mercator_projection(lat: float, lon: float, zoom: int) -> Vector2:
 	var n = 2.0 ** zoom
 	var x_tile = floor((lon + 180.0) / 360.0 * n)
@@ -155,6 +149,12 @@ func _mercator_projection(lat: float, lon: float, zoom: int) -> Vector2:
 	var y_tile = floor((1.0 - log(tan(lat_rad) + (1 / cos(lat_rad))) / PI) / 2.0 * n)
 	return Vector2(x_tile, y_tile)
 	#return {"x": x_tile, "y": y_tile}
+	
+func calculate_movement(dest_lat: float, dest_lon: float, origin_lat: float, origin_lon: float) -> Vector3:
+	var dest = _mercator_projection(dest_lat, dest_lon, zoom)
+	var origin = _mercator_projection(origin_lat, origin_lon, zoom)
+	var movement = dest - origin
+	return Vector3(movement.x, 0 , movement.y) * -1.0
 
 # emitted from player when they move over a new tile
 func _on_player_player_entered_world_tile(x, y, tile_position):

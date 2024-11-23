@@ -111,45 +111,45 @@
 63-->C:\Users\bony\Desktop\nmsu_fall24\DGD\final_game_project\Rust-Rescue\android\build\AndroidManifest.xml:28:13-33
 64        <meta-data
 65            android:name="org.godotengine.editor.version"
-66            android:value="4.3.stable" /> <!-- Records the version of the Godot library -->
+66            android:value="4.3.stable.mono" /> <!-- Records the version of the Godot library -->
 67        <meta-data
-67-->[godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\ec78cfc85816bd35fa163c180d5f4394\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:12:9-14:44
+67-->[godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\990e1a30944d7a05a76cc7ea2e8e22ab\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:12:9-14:44
 68            android:name="org.godotengine.library.version"
-68-->[godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\ec78cfc85816bd35fa163c180d5f4394\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:13:13-59
+68-->[godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\990e1a30944d7a05a76cc7ea2e8e22ab\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:13:13-59
 69            android:value="4.3.0.stable" />
-69-->[godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\ec78cfc85816bd35fa163c180d5f4394\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:14:13-41
+69-->[godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\990e1a30944d7a05a76cc7ea2e8e22ab\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:14:13-41
 70
 71        <service android:name="org.godotengine.godot.GodotDownloaderService" />
-71-->[godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\ec78cfc85816bd35fa163c180d5f4394\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:16:9-80
-71-->[godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\ec78cfc85816bd35fa163c180d5f4394\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:16:18-77
+71-->[godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\990e1a30944d7a05a76cc7ea2e8e22ab\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:16:9-80
+71-->[godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\990e1a30944d7a05a76cc7ea2e8e22ab\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:16:18-77
 72
 73        <activity
-73-->[godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\ec78cfc85816bd35fa163c180d5f4394\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:18:9-22:75
+73-->[godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\990e1a30944d7a05a76cc7ea2e8e22ab\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:18:9-22:75
 74            android:name="org.godotengine.godot.utils.ProcessPhoenix"
-74-->[godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\ec78cfc85816bd35fa163c180d5f4394\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:19:13-70
+74-->[godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\990e1a30944d7a05a76cc7ea2e8e22ab\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:19:13-70
 75            android:exported="false"
-75-->[godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\ec78cfc85816bd35fa163c180d5f4394\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:20:13-37
+75-->[godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\990e1a30944d7a05a76cc7ea2e8e22ab\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:20:13-37
 76            android:process=":phoenix"
-76-->[godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\ec78cfc85816bd35fa163c180d5f4394\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:21:13-39
+76-->[godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\990e1a30944d7a05a76cc7ea2e8e22ab\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:21:13-39
 77            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-77-->[godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\ec78cfc85816bd35fa163c180d5f4394\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:22:13-72
+77-->[godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\990e1a30944d7a05a76cc7ea2e8e22ab\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:22:13-72
 78
 79        <provider
-79-->[godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\ec78cfc85816bd35fa163c180d5f4394\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:24:9-32:20
+79-->[godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\990e1a30944d7a05a76cc7ea2e8e22ab\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:24:9-32:20
 80            android:name="androidx.core.content.FileProvider"
-80-->[godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\ec78cfc85816bd35fa163c180d5f4394\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:25:13-62
+80-->[godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\990e1a30944d7a05a76cc7ea2e8e22ab\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:25:13-62
 81            android:authorities="com.example.osm_rust_rescue.fileprovider"
-81-->[godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\ec78cfc85816bd35fa163c180d5f4394\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:26:13-64
+81-->[godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\990e1a30944d7a05a76cc7ea2e8e22ab\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:26:13-64
 82            android:exported="false"
-82-->[godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\ec78cfc85816bd35fa163c180d5f4394\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:27:13-37
+82-->[godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\990e1a30944d7a05a76cc7ea2e8e22ab\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:27:13-37
 83            android:grantUriPermissions="true" >
-83-->[godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\ec78cfc85816bd35fa163c180d5f4394\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:28:13-47
+83-->[godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\990e1a30944d7a05a76cc7ea2e8e22ab\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:28:13-47
 84            <meta-data
-84-->[godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\ec78cfc85816bd35fa163c180d5f4394\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:29:13-31:64
+84-->[godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\990e1a30944d7a05a76cc7ea2e8e22ab\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:29:13-31:64
 85                android:name="android.support.FILE_PROVIDER_PATHS"
-85-->[godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\ec78cfc85816bd35fa163c180d5f4394\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:30:17-67
+85-->[godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\990e1a30944d7a05a76cc7ea2e8e22ab\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:30:17-67
 86                android:resource="@xml/godot_provider_paths" />
-86-->[godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\ec78cfc85816bd35fa163c180d5f4394\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:31:17-61
+86-->[godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\990e1a30944d7a05a76cc7ea2e8e22ab\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:31:17-61
 87        </provider>
 88        <!--
 89        Plugin metadata:

@@ -4,7 +4,7 @@
             "outputFile": "com.godot.game-mergeDebugResources-18:/values-fa/values-fa.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\ec78cfc85816bd35fa163c180d5f4394\\transformed\\jetified-godot-lib.template_debug\\res\\values-fa\\values-fa.xml",
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\990e1a30944d7a05a76cc7ea2e8e22ab\\transformed\\jetified-godot-lib.template_debug\\res\\values-fa\\values-fa.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",

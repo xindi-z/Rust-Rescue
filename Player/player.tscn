@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://bnkuec8jffdiw"]
 
 [ext_resource type="Script" path="res://Player/player.gd" id="1_g0ye0"]
-[ext_resource type="PackedScene" path="res://running_model.tscn" id="2_45378"]
+[ext_resource type="PackedScene" uid="uid://dbapva52xgdhx" path="res://running_model.tscn" id="2_45378"]
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_1wkx7"]
 

@@ -9,7 +9,7 @@ MERGED from C:\Users\bony\Desktop\nmsu_fall24\DGD\final_game_project\Rust-Rescue
 INJECTED from C:\Users\bony\Desktop\nmsu_fall24\DGD\final_game_project\Rust-Rescue\android\build\src\debug\AndroidManifest.xml:2:1-32:12
 INJECTED from C:\Users\bony\Desktop\nmsu_fall24\DGD\final_game_project\Rust-Rescue\android\build\src\debug\AndroidManifest.xml:2:1-32:12
 INJECTED from C:\Users\bony\Desktop\nmsu_fall24\DGD\final_game_project\Rust-Rescue\android\build\src\debug\AndroidManifest.xml:2:1-32:12
-MERGED from [godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\ec78cfc85816bd35fa163c180d5f4394\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:2:1-35:12
+MERGED from [godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\990e1a30944d7a05a76cc7ea2e8e22ab\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:2:1-35:12
 MERGED from [GeolocationPlugin-debug.aar] C:\Users\bony\.gradle\caches\transforms-3\adbe622ead1026f7d2c3dc22934b1ee4\transformed\jetified-GeolocationPlugin-debug\AndroidManifest.xml:2:1-28:12
 MERGED from [androidx.fragment:fragment:1.7.1] C:\Users\bony\.gradle\caches\transforms-3\34ec294f6bdde40744063ea74c4e92c4\transformed\fragment-1.7.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.core:core-splashscreen:1.0.1] C:\Users\bony\.gradle\caches\transforms-3\dd89130c4a8ca50a04569d2aa68e9e1e\transformed\jetified-core-splashscreen-1.0.1\AndroidManifest.xml:17:1-24:12
@@ -75,8 +75,8 @@ ADDED from C:\Users\bony\Desktop\nmsu_fall24\DGD\final_game_project\Rust-Rescue\
 MERGED from C:\Users\bony\Desktop\nmsu_fall24\DGD\final_game_project\Rust-Rescue\android\build\AndroidManifest.xml:18:5-56:19
 MERGED from C:\Users\bony\Desktop\nmsu_fall24\DGD\final_game_project\Rust-Rescue\android\build\AndroidManifest.xml:18:5-56:19
 INJECTED from C:\Users\bony\Desktop\nmsu_fall24\DGD\final_game_project\Rust-Rescue\android\build\src\debug\AndroidManifest.xml:14:5-31:19
-MERGED from [godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\ec78cfc85816bd35fa163c180d5f4394\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:9:5-33:19
-MERGED from [godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\ec78cfc85816bd35fa163c180d5f4394\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:9:5-33:19
+MERGED from [godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\990e1a30944d7a05a76cc7ea2e8e22ab\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:9:5-33:19
+MERGED from [godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\990e1a30944d7a05a76cc7ea2e8e22ab\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:9:5-33:19
 MERGED from [GeolocationPlugin-debug.aar] C:\Users\bony\.gradle\caches\transforms-3\adbe622ead1026f7d2c3dc22934b1ee4\transformed\jetified-GeolocationPlugin-debug\AndroidManifest.xml:10:5-26:19
 MERGED from [GeolocationPlugin-debug.aar] C:\Users\bony\.gradle\caches\transforms-3\adbe622ead1026f7d2c3dc22934b1ee4\transformed\jetified-GeolocationPlugin-debug\AndroidManifest.xml:10:5-26:19
 MERGED from [androidx.core:core:1.13.1] C:\Users\bony\.gradle\caches\transforms-3\b3547f5af51c9aa0fc1353ec1ad29946\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
@@ -194,8 +194,8 @@ uses-sdk
 INJECTED from C:\Users\bony\Desktop\nmsu_fall24\DGD\final_game_project\Rust-Rescue\android\build\src\debug\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\bony\Desktop\nmsu_fall24\DGD\final_game_project\Rust-Rescue\android\build\src\debug\AndroidManifest.xml
 INJECTED from C:\Users\bony\Desktop\nmsu_fall24\DGD\final_game_project\Rust-Rescue\android\build\src\debug\AndroidManifest.xml
-MERGED from [godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\ec78cfc85816bd35fa163c180d5f4394\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:7:5-44
-MERGED from [godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\ec78cfc85816bd35fa163c180d5f4394\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:7:5-44
+MERGED from [godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\990e1a30944d7a05a76cc7ea2e8e22ab\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:7:5-44
+MERGED from [godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\990e1a30944d7a05a76cc7ea2e8e22ab\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:7:5-44
 MERGED from [GeolocationPlugin-debug.aar] C:\Users\bony\.gradle\caches\transforms-3\adbe622ead1026f7d2c3dc22934b1ee4\transformed\jetified-GeolocationPlugin-debug\AndroidManifest.xml:5:5-44
 MERGED from [GeolocationPlugin-debug.aar] C:\Users\bony\.gradle\caches\transforms-3\adbe622ead1026f7d2c3dc22934b1ee4\transformed\jetified-GeolocationPlugin-debug\AndroidManifest.xml:5:5-44
 MERGED from [androidx.fragment:fragment:1.7.1] C:\Users\bony\.gradle\caches\transforms-3\34ec294f6bdde40744063ea74c4e92c4\transformed\fragment-1.7.1\AndroidManifest.xml:5:5-44
@@ -245,41 +245,41 @@ MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\bony\.gradle\caches
 	android:minSdkVersion
 		INJECTED from C:\Users\bony\Desktop\nmsu_fall24\DGD\final_game_project\Rust-Rescue\android\build\src\debug\AndroidManifest.xml
 meta-data#org.godotengine.library.version
-ADDED from [godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\ec78cfc85816bd35fa163c180d5f4394\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:12:9-14:44
+ADDED from [godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\990e1a30944d7a05a76cc7ea2e8e22ab\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:12:9-14:44
 	android:value
-		ADDED from [godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\ec78cfc85816bd35fa163c180d5f4394\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:14:13-41
+		ADDED from [godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\990e1a30944d7a05a76cc7ea2e8e22ab\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:14:13-41
 	android:name
-		ADDED from [godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\ec78cfc85816bd35fa163c180d5f4394\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:13:13-59
+		ADDED from [godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\990e1a30944d7a05a76cc7ea2e8e22ab\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:13:13-59
 service#org.godotengine.godot.GodotDownloaderService
-ADDED from [godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\ec78cfc85816bd35fa163c180d5f4394\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:16:9-80
+ADDED from [godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\990e1a30944d7a05a76cc7ea2e8e22ab\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:16:9-80
 	android:name
-		ADDED from [godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\ec78cfc85816bd35fa163c180d5f4394\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:16:18-77
+		ADDED from [godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\990e1a30944d7a05a76cc7ea2e8e22ab\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:16:18-77
 activity#org.godotengine.godot.utils.ProcessPhoenix
-ADDED from [godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\ec78cfc85816bd35fa163c180d5f4394\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:18:9-22:75
+ADDED from [godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\990e1a30944d7a05a76cc7ea2e8e22ab\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:18:9-22:75
 	android:process
-		ADDED from [godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\ec78cfc85816bd35fa163c180d5f4394\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:21:13-39
+		ADDED from [godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\990e1a30944d7a05a76cc7ea2e8e22ab\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:21:13-39
 	android:exported
-		ADDED from [godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\ec78cfc85816bd35fa163c180d5f4394\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:20:13-37
+		ADDED from [godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\990e1a30944d7a05a76cc7ea2e8e22ab\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:20:13-37
 	android:theme
-		ADDED from [godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\ec78cfc85816bd35fa163c180d5f4394\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:22:13-72
+		ADDED from [godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\990e1a30944d7a05a76cc7ea2e8e22ab\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:22:13-72
 	android:name
-		ADDED from [godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\ec78cfc85816bd35fa163c180d5f4394\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:19:13-70
+		ADDED from [godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\990e1a30944d7a05a76cc7ea2e8e22ab\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:19:13-70
 provider#androidx.core.content.FileProvider
-ADDED from [godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\ec78cfc85816bd35fa163c180d5f4394\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:24:9-32:20
+ADDED from [godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\990e1a30944d7a05a76cc7ea2e8e22ab\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:24:9-32:20
 	android:grantUriPermissions
-		ADDED from [godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\ec78cfc85816bd35fa163c180d5f4394\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:28:13-47
+		ADDED from [godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\990e1a30944d7a05a76cc7ea2e8e22ab\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:28:13-47
 	android:authorities
-		ADDED from [godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\ec78cfc85816bd35fa163c180d5f4394\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:26:13-64
+		ADDED from [godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\990e1a30944d7a05a76cc7ea2e8e22ab\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:26:13-64
 	android:exported
-		ADDED from [godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\ec78cfc85816bd35fa163c180d5f4394\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:27:13-37
+		ADDED from [godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\990e1a30944d7a05a76cc7ea2e8e22ab\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from [godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\ec78cfc85816bd35fa163c180d5f4394\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:25:13-62
+		ADDED from [godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\990e1a30944d7a05a76cc7ea2e8e22ab\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:25:13-62
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\ec78cfc85816bd35fa163c180d5f4394\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:29:13-31:64
+ADDED from [godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\990e1a30944d7a05a76cc7ea2e8e22ab\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:29:13-31:64
 	android:resource
-		ADDED from [godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\ec78cfc85816bd35fa163c180d5f4394\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:31:17-61
+		ADDED from [godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\990e1a30944d7a05a76cc7ea2e8e22ab\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:31:17-61
 	android:name
-		ADDED from [godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\ec78cfc85816bd35fa163c180d5f4394\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:30:17-67
+		ADDED from [godot-lib.template_debug.aar] C:\Users\bony\.gradle\caches\transforms-3\990e1a30944d7a05a76cc7ea2e8e22ab\transformed\jetified-godot-lib.template_debug\AndroidManifest.xml:30:17-67
 meta-data#org.godotengine.plugin.v2.GeolocationPlugin
 ADDED from [GeolocationPlugin-debug.aar] C:\Users\bony\.gradle\caches\transforms-3\adbe622ead1026f7d2c3dc22934b1ee4\transformed\jetified-GeolocationPlugin-debug\AndroidManifest.xml:23:9-25:93
 	android:value

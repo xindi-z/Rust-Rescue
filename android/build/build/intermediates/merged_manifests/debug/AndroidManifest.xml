@@ -63,7 +63,7 @@
             android:shell="true" /> <!-- Records the version of the Godot editor used for building -->
         <meta-data
             android:name="org.godotengine.editor.version"
-            android:value="4.3.stable" /> <!-- Records the version of the Godot library -->
+            android:value="4.3.stable.mono" /> <!-- Records the version of the Godot library -->
         <meta-data
             android:name="org.godotengine.library.version"
             android:value="4.3.0.stable" />
