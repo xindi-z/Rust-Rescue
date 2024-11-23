@@ -18,5 +18,7 @@ omni_range = 12.171
 [node name="Map_container" parent="." instance=ExtResource("1_86jw6")]
 
 [node name="test" parent="." instance=ExtResource("3_qyy6p")]
+position = Vector2(-1, 0)
+script = null
 
 [connection signal="player_entered_world_tile" from="Player" to="Map_container" method="_on_player_player_entered_world_tile"]
