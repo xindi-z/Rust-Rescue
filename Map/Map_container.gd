@@ -136,11 +136,12 @@ func _physics_process(delta):
 # distortion that happens when you represent the globe on a 2D map
 #func _mercator_projection(lat: float, lon: float, zoom: int ) -> Dictionary:
 
+#not wanted
 # function to rotate character direction
-func _input(event: InputEvent) -> void:
-	if event is InputEventScreenDrag:
-		var tempRot = rotation.y - event.relative.x / 1000 * 3
-		rotation.y = tempRot
+#func _input(event: InputEvent) -> void:
+#	if event is InputEventScreenDrag:
+#		var tempRot = rotation.y - event.relative.x / 1000 * 3
+#		rotation.y = tempRot
  
 func _mercator_projection(lat: float, lon: float, zoom: int) -> Vector2:
 	var n = 2.0 ** zoom
