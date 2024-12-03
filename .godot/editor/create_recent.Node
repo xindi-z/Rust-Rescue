@@ -1,0 +1,15 @@
+AudioStreamPlayer3D
+Label
+Control
+Node
+AnimatedSprite2D
+Panel
+VBoxContainer
+CenterContainer
+Button
+Window
+RichTextLabel
+Node2D
+Node3D
+AnimationTree
+CollisionShape3D

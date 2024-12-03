@@ -1,0 +1,19 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "osm_rust_rescue", "osm_rust_rescue.csproj", "{BB0786F8-0133-4540-B8F5-A901BAAD74FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+	Debug|Any CPU = Debug|Any CPU
+	ExportDebug|Any CPU = ExportDebug|Any CPU
+	ExportRelease|Any CPU = ExportRelease|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB0786F8-0133-4540-B8F5-A901BAAD74FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB0786F8-0133-4540-B8F5-A901BAAD74FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB0786F8-0133-4540-B8F5-A901BAAD74FE}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
+		{BB0786F8-0133-4540-B8F5-A901BAAD74FE}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
+		{BB0786F8-0133-4540-B8F5-A901BAAD74FE}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{BB0786F8-0133-4540-B8F5-A901BAAD74FE}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+	EndGlobalSection
+EndGlobal

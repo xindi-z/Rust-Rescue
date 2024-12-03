@@ -1,0 +1,49 @@
+fc8a56933c4b1c8d796fdb8f7a9f9475
+::res://::1733183267
+3d_character.tscn::PackedScene::2547706291817148536::1732210102::0::1::::<><>::uid://b0ymlfy8mxtj4::::res://Player/justModel.glb
+3d_model.tscn::PackedScene::7947950159406217321::1731907812::0::1::::<><>::uid://sxqdhofh4tsp::::res://assets/3d_models/justModel.glb
+android_geolocation_plugin.gd::GDScript::-1::1731907817::0::1::::AndroidGeolocationPlugin<>Node<>::
+export_presets.cfg::TextFile::-1::1732321053::0::1::::<><>::
+Godot-OSM-POC.apple-touch-icon.png::CompressedTexture2D::720533637610834784::1731898887::1732824458::1::::<><>::
+Godot-OSM-POC.icon.png::CompressedTexture2D::3018526979835777089::1731898887::1732824458::1::::<><>::
+Godot-OSM-POC.png::CompressedTexture2D::867422257067221698::1731898887::1732824458::1::::<><>::
+icon.svg::CompressedTexture2D::8774319941899700001::1731898888::1732824458::1::::<><>::
+index.apple-touch-icon.png::CompressedTexture2D::1090874205050028775::1731898888::1732824458::1::::<><>::
+index.icon.png::CompressedTexture2D::6605254131721877110::1731898888::1732824458::1::::<><>::
+index.png::CompressedTexture2D::5731870434718265771::1731898888::1732824458::1::::<><>::
+main.gd::GDScript::-1::1731909324::0::1::::<>RefCounted<>::
+main.tscn::PackedScene::7702588047323913116::1733171160::0::1::::<><>::uid://dpas5wq75oivi::::res://Map/map_container.tscn<>uid://bnkuec8jffdiw::::res://Player/player.tscn<>uid://debwn8vc5ptqy::::res://test.tscn<>res://android_geolocation_plugin.gd<>uid://c5lchbqhkfm15::::res://assets/game_music/Fitz Intro Song - Wii Shop Channel.mp3
+main_menu.gd::GDScript::-1::1731907817::0::1::::<>Control<>::
+main_menu.tscn::PackedScene::7920502701510838433::1733171159::0::1::::<><>::res://main_menu.gd<>uid://c3ohgm1hxle0o::::res://assets/5.png
+RedCarWalk (1).png::CompressedTexture2D::8784913064846845340::1731909324::1732824458::1::::<><>::
+RedCarWalk (2).png::CompressedTexture2D::7649199202205389003::1731909324::1732824458::1::::<><>::
+RescuedPrompt.cs::CSharpScript::-1::1731909324::0::1::::<>Window<>::
+running_model.tscn::PackedScene::7230399198882699537::1731907817::0::1::::<><>::uid://sxqdhofh4tsp::::res://assets/3d_models/justModel.glb
+team.txt::TextFile::-1::1731630469::0::1::::<><>::
+test.cs::CSharpScript::-1::1732321053::0::1::::<>Node2D<>::
+test.tscn::PackedScene::7443442558390138844::1732210103::0::1::::<><>::res://test.cs<>res://RescuedPrompt.cs
+::res://addons/::1731907812
+::res://addons/GeolocationPlugin/::1731907812
+export_plugin.gd::GDScript::-1::1731907812::0::1::::<>EditorPlugin<>::
+plugin.cfg::TextFile::-1::1731907812::0::1::::<><>::
+::res://addons/GeolocationPlugin/bin/::1731907812
+::res://addons/GeolocationPlugin/bin/debug/::1731907812
+::res://addons/GeolocationPlugin/bin/release/::1731907812
+::res://android/::1732321050
+::res://assets/::1732824458
+5.png::CompressedTexture2D::6767466682315078424::1731907817::1732824458::1::::<><>::
+::res://assets/3d_models/::1732824459
+justModel.glb::PackedScene::1311857092622342583::1731907817::1732824459::1::::<><>::
+::res://assets/game_music/::1732824458
+Fitz Intro Song - Wii Shop Channel.mp3::AudioStreamMP3::6901348843936541802::1731907817::1732824458::1::::<><>::
+::res://Images/::1732824458
+player_view_phl.png::CompressedTexture2D::509680318328548421::1731898888::1732824458::1::::<><>::
+::res://Map/::1733171160
+Map_container.gd::GDScript::-1::1732321651::0::1::::<>Node3D<>::
+map_container.tscn::PackedScene::8213242367061889858::1733171160::0::1::::<><>::res://Map/Map_container.gd
+map_tile.gd::GDScript::-1::1731898888::0::1::::<>Node<>::
+map_tile.tscn::PackedScene::8868636729884472457::1733171160::0::1::::<><>::res://Map/map_tile.gd
+::res://Player/::1733171160
+justModel.glb::PackedScene::4191435389595884723::1731898888::1732824459::1::::<><>::
+player.gd::GDScript::-1::1731907953::0::1::::<>Node3D<>::
+player.tscn::PackedScene::3320741068000115466::1733171160::0::1::::<><>::res://Player/player.gd<>uid://dbapva52xgdhx::::res://running_model.tscn
