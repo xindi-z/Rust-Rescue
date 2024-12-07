@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bdp3i0jdgtluu"
-path="res://.godot/imported/RedCarWalk.png.png-65ee062abecc7794c7027516c08c2ebb.ctex"
+uid="uid://b8sb75vxu3c2y"
+path="res://.godot/imported/nest.png-aeddcf1219044f725b2cc87dd2105281.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://RedCarWalk.png.png"
-dest_files=["res://.godot/imported/RedCarWalk.png.png-65ee062abecc7794c7027516c08c2ebb.ctex"]
+source_file="res://nest.png"
+dest_files=["res://.godot/imported/nest.png-aeddcf1219044f725b2cc87dd2105281.ctex"]
 
 [params]
 

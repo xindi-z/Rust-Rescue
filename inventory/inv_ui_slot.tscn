@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://baafo7ctlhpt"]
+
+[ext_resource type="Texture2D" uid="uid://b8sb75vxu3c2y" path="res://nest.png" id="1_ghsdy"]
+[ext_resource type="Script" path="res://inventory/inv_ui_slot.gd" id="1_lonow"]
+
+[node name="inv_UI_slot" type="Panel"]
+custom_minimum_size = Vector2(145, 145)
+offset_right = 169.0
+offset_bottom = 153.0
+script = ExtResource("1_lonow")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(87.25, 75)
+scale = Vector2(0.01715, 0.0154)
+texture = ExtResource("1_ghsdy")
+
+[node name="item_display" type="Sprite2D" parent="."]
