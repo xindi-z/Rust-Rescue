@@ -44,6 +44,8 @@ public partial class test : Node2D
 			// text.Text = "You rescued a creature!";
 			GD.Print("Animal rescued");
 			 rescuedlPrompt.ShowPrompt();
+
+			//  here is where i should add inventory got trrigered
 		}
 
 	}

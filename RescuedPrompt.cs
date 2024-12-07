@@ -10,33 +10,33 @@ public partial class RescuedPrompt : Window
 
     public override void _Ready()
     {
-        // 获取子节点
+        // getting child node
         promptLabel = GetNode<Label>("VBoxContainer/Label");
         closeButton = GetNode<Button>("VBoxContainer/Button");
 
-        // 设置提示文本
+        // setting prompt
         // promptLabel.Text = "You rescued a creature!";
 
-        // 按钮点击时关闭提示框
+        // close the prompt when pressed
         closeButton.Pressed += OnCloseButtonPressed;
 		// EmitSignal("AnimalRescued");
-        // 默认隐藏提示框
+        // hide the prompt
         Hide();
     }
 
 
 	    private void OnCloseButtonPressed()
     {
-        // 发射 AnimalRescued 信号
+        // emit AnimalRescued singnal
         // EmitSignal("AnimalRescued");
 		EmitSignal(SignalName.AnimalRescued);
         GD.Print("Animal rescued signal emitted!");
 
-        // 隐藏提示框
+        // hide prompt
         Hide();
     }
 
-    // 显示提示框的方法
+    // show prompt
     public void ShowPrompt()
     {
         Show();

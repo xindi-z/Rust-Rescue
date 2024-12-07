@@ -1,10 +1,11 @@
-[gd_scene load_steps=6 format=3 uid="uid://dh0gq80ikhvmy"]
+[gd_scene load_steps=7 format=3 uid="uid://dh0gq80ikhvmy"]
 
 [ext_resource type="PackedScene" uid="uid://dpas5wq75oivi" path="res://Map/map_container.tscn" id="1_86jw6"]
 [ext_resource type="PackedScene" uid="uid://bnkuec8jffdiw" path="res://Player/player.tscn" id="2_dbc1j"]
 [ext_resource type="PackedScene" uid="uid://debwn8vc5ptqy" path="res://test.tscn" id="3_qyy6p"]
 [ext_resource type="Script" path="res://android_geolocation_plugin.gd" id="4_sxnir"]
 [ext_resource type="AudioStream" uid="uid://c5lchbqhkfm15" path="res://assets/game_music/Fitz Intro Song - Wii Shop Channel.mp3" id="5_s0en0"]
+[ext_resource type="PackedScene" uid="uid://h4dwacgchxa2" path="res://inventory/inv_ui.tscn" id="6_h6ur2"]
 
 [node name="Main" type="Node3D"]
 
@@ -20,10 +21,6 @@ omni_range = 12.171
 [node name="Map_container" parent="." node_paths=PackedStringArray("android_plugin", "log_label") instance=ExtResource("1_86jw6")]
 android_plugin = NodePath("../AndroidGeolocationPlugin")
 log_label = NodePath("../Control/Label")
-
-[node name="test" parent="." instance=ExtResource("3_qyy6p")]
-position = Vector2(-1, 0)
-script = null
 
 [node name="AndroidGeolocationPlugin" type="Node" parent="."]
 script = ExtResource("4_sxnir")
@@ -42,5 +39,9 @@ offset_bottom = 23.0
 [node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="."]
 stream = ExtResource("5_s0en0")
 autoplay = true
+
+[node name="Inv_UI" parent="." instance=ExtResource("6_h6ur2")]
+
+[node name="test" parent="." instance=ExtResource("3_qyy6p")]
 
 [connection signal="player_entered_world_tile" from="Player" to="Map_container" method="_on_player_player_entered_world_tile"]

@@ -18,4 +18,3 @@
 ### 回调方法，当信号触发时调用
 #func _on_animal_rescued():
 	#print("The animal has been rescued from the prompt!")
-	### 你可以在这里添加更多的逻辑
