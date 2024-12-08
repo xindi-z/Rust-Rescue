@@ -49,7 +49,7 @@ public partial class test : Node2D
 		}
 
 	}
-
+	
 		public override void _ExitTree()
 	{
 		// close port
