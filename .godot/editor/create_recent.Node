@@ -1,3 +1,6 @@
+TextureRect
+HBoxContainer
+CanvasLayer
 Label
 Panel
 CenterContainer
@@ -10,5 +13,3 @@ AudioStreamPlayer3D
 Node
 AnimatedSprite2D
 VBoxContainer
-Button
-Window

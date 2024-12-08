@@ -10,6 +10,7 @@ public partial class RescuedPrompt : Window
 
 	public override void _Ready()
 	{
+
 		// getting child node
 		promptLabel = GetNode<Label>("VBoxContainer/Label");
 		closeButton = GetNode<Button>("VBoxContainer/Button");
@@ -24,13 +25,25 @@ public partial class RescuedPrompt : Window
 		Hide();
 	}
 
+// when close the prompt call rescueTriggered
+
 
 		private void OnCloseButtonPressed()
 	{
-		// emit AnimalRescued singnal
-		// EmitSignal("AnimalRescued");
-		EmitSignal(SignalName.AnimalRescued);
-		GD.Print("Animal rescued signal emitted!");
+		// var inv_ui_GDScript = GD.Load<GDScript>("res://inventory/inv_ui.gd");
+		// var inv_ui_Node = (GodotObject)inv_ui_GDScript.New(); // This is a GodotObject.
+
+		// var inv_GDScript = GD.Load<GDScript>("res://inventory/inventory.gd");
+		// var inv = (GodotObject)inv_GDScript.New(); // This is a GodotObject.
+
+
+		// // emit AnimalRescued singnal
+		// // EmitSignal("AnimalRescued");
+		// EmitSignal(SignalName.AnimalRescued);
+		// GD.Print("Animal rescued signal emitted!");
+
+
+		// inv_ui_Node.Call("rescueTriggered");
 
 		// hide prompt
 		Hide();

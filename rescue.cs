@@ -2,7 +2,7 @@ using Godot;
 using System;
 using System.IO.Ports;
 
-public partial class test : Node2D
+public partial class rescue : Node2D
 {
 
 
@@ -44,6 +44,9 @@ public partial class test : Node2D
 			// text.Text = "You rescued a creature!";
 			GD.Print("Animal rescued");
 			 rescuedlPrompt.ShowPrompt();
+
+			//  collect the item
+			//	trigger the dialogue
 
 		}
 
