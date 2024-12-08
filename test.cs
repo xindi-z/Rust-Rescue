@@ -45,7 +45,6 @@ public partial class test : Node2D
 			GD.Print("Animal rescued");
 			 rescuedlPrompt.ShowPrompt();
 
-			//  here is where i should add inventory got trrigered
 		}
 
 	}
