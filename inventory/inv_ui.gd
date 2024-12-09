@@ -35,19 +35,18 @@ func _process(dealta):
 			open()
 	if Input.is_action_just_pressed("x"):
 		collect(item)
-		DialogueManager.show_dialogue_balloon(load("res://bunnyTalk.dialogue"), "start")
 #trigger in process to add creature into inventory
 #where this item come from? how should i set it
 #item should be stright pass to the function after sensor is pressed
 #after colleted, plot should shown(a simple story of specis background)
 
-#func rescueTriggered():
-	#inv.insert(item)
-	#DialogueManager.show_dialogue_balloon(load("res://bunnyTalk.dialogue"), "start")
-	#
+func rescueTriggered():
+	DialogueManager.show_dialogue_balloon(load("res://bunnyTalk.dialogue"), "start")
+	
+	
 func collect(item):
 	inv.insert(item)
-
+	DialogueManager.show_dialogue_balloon(load("res://bunnyTalk.dialogue"), "start")
 
 
 func open():
