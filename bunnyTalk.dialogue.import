@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_13"
+type="Resource"
+uid="uid://drh380ukasqne"
+path="res://.godot/imported/bunnyTalk.dialogue-3c7a589c5d968a559be465fb17209561.tres"
+
+[deps]
+
+source_file="res://bunnyTalk.dialogue"
+dest_files=["res://.godot/imported/bunnyTalk.dialogue-3c7a589c5d968a559be465fb17209561.tres"]
+
+[params]
+
+defaults=true

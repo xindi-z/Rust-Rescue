@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://baafo7ctlhpt"]
 
 [ext_resource type="Script" path="res://inventory/inv_ui_slot.gd" id="1_lonow"]
-[ext_resource type="Texture2D" uid="uid://8yqolfk65w04" path="res://nest2.png" id="2_7j42r"]
+[ext_resource type="Texture2D" uid="uid://8yqolfk65w04" path="res://nest.png" id="2_7j42r"]
 
 [node name="inv_UI_slot" type="Panel"]
 custom_minimum_size = Vector2(145, 145)

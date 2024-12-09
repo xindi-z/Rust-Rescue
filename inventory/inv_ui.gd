@@ -41,9 +41,13 @@ func _process(dealta):
 #after colleted, plot should shown(a simple story of specis background)
 
 
+func rescueTriggered():
+	DialogueManager.show_dialogue_balloon(load("res://bunnyTalk.dialogue"), "start")
+	
+	
 func collect(item):
 	inv.insert(item)
-
+	DialogueManager.show_dialogue_balloon(load("res://bunnyTalk.dialogue"), "start")
 
 
 func open():

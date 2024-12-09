@@ -2,7 +2,7 @@ using Godot;
 using System;
 using System.IO.Ports;
 
-public partial class test : Node2D
+public partial class rescue : Node2D
 {
 
 
@@ -45,10 +45,13 @@ public partial class test : Node2D
 			GD.Print("Animal rescued");
 			 rescuedlPrompt.ShowPrompt();
 
+			//  collect the item
+			//	trigger the dialogue
+
 		}
 
 	}
-
+	
 		public override void _ExitTree()
 	{
 		// close port

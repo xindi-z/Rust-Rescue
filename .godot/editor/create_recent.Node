@@ -1,7 +1,10 @@
+Sprite2D
+TextureRect
+HBoxContainer
+CanvasLayer
 Label
 Panel
 CenterContainer
-Sprite2D
 GridContainer
 NinePatchRect
 ColorRect
@@ -9,6 +12,3 @@ Control
 AudioStreamPlayer3D
 Node
 AnimatedSprite2D
-VBoxContainer
-Button
-Window
