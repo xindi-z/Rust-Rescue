@@ -40,6 +40,7 @@ func _process(dealta):
 #item should be stright pass to the function after sensor is pressed
 #after colleted, plot should shown(a simple story of specis background)
 
+
 func collect(item):
 	inv.insert(item)
 
