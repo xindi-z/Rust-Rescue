@@ -44,6 +44,7 @@ func _ready():
 	new_latitude = latitude
 	new_longitude = longitude
 	android_plugin.android_location_updated.connect(self._on_location_update)
+	place_pin_on_tile(32.290052,-106.753893)
 	
 	
 	#log_label.text = str('Location Update: Latitude[',latitude, '], Longitude[', longitude, ']')
@@ -57,10 +58,6 @@ func _on_location_update(location_dictionary: Dictionary) -> void:
 	log_label.text = str('Location Update: Latitude[', new_latitude, '], Longitude[', new_longitude, ']')
 	
 	
-	
-
-
-
 func generate_grid(start_x, start_y, origin_positon):
 	var x_offset = grid_width / 2 
 	var y_offset = grid_height / 2
@@ -73,7 +70,7 @@ func generate_grid(start_x, start_y, origin_positon):
 				load_count+=1
 				var tile = create_tile(x_cord, y_cord)
 				tile.position = tile.position + origin_positon + Vector3(x - x_offset, 0, y - y_offset)
-	#print('Loaded %s new tiles' % load_count)
+	print('Loaded %s new tiles' % load_count)
 
 func create_tile(x: int, y: int) -> Node3D:
 	var tile = map_tile.instantiate()
@@ -166,3 +163,21 @@ func _on_tile_purge_timer_timeout():
 		if tile.global_position.distance_to(Vector3.ZERO) > max(grid_height, grid_width)*2:
 			tile_cache.erase([tile.tile_x, tile.tile_y])
 			tile.queue_free()
+
+#some issue
+#func place_pin_on_tile(latitude: float, longitude: float):
+	#var tile_coords = _mercator_projection(latitude, longitude, zoom)
+	#print("tile_coords", tile_coords)
+#
+	#if !tile_cache.has([tile_coords.x, tile_coords.y]):
+		#generate_grid(tile_coords.x, tile_coords.y, Vector3(0, 0, 0))
+##
+	#var target_tile = tile_cache.get([tile_coords.x, tile_coords.y])
+	#print(target_tile)
+##
+	#if target_tile != null and target_tile.position != Vector3.ZERO:
+		#print("Tile Position: ", target_tile.position)  
+		#var pin = Sprite3D.new()
+		#pin.texture = preload("res://creatures/bunny.png")  
+		#pin.position = target_tile.position 
+		#add_child(pin)

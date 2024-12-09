@@ -4,6 +4,12 @@
 
 [node name="Map_container" type="Node3D"]
 script = ExtResource("1_kmdud")
+latitude = null
+longitude = null
+zoom = null
+grid_width = null
+grid_height = null
+tile_scale = null
 
 [node name="MapTiles" type="Node3D" parent="."]
 
