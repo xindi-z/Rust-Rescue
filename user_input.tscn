@@ -1,0 +1,47 @@
+[gd_scene load_steps=2 format=3 uid="uid://4qrn2yomxi0"]
+
+[ext_resource type="Script" path="res://user_input.gd" id="1_6tlel"]
+
+[node name="UserInput" type="Window"]
+initial_position = 1
+size = Vector2i(300, 200)
+script = ExtResource("1_6tlel")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="QueryContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="LatContainer" type="VBoxContainer" parent="MarginContainer/QueryContainer"]
+layout_mode = 2
+
+[node name="lat_label" type="Label" parent="MarginContainer/QueryContainer/LatContainer"]
+layout_mode = 2
+text = "Latitude:"
+
+[node name="LineEdit" type="LineEdit" parent="MarginContainer/QueryContainer/LatContainer"]
+layout_mode = 2
+
+[node name="LonContainer" type="VBoxContainer" parent="MarginContainer/QueryContainer"]
+layout_mode = 2
+
+[node name="long_label" type="Label" parent="MarginContainer/QueryContainer/LonContainer"]
+layout_mode = 2
+text = "Longtitude:"
+
+[node name="LineEdit" type="LineEdit" parent="MarginContainer/QueryContainer/LonContainer"]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="MarginContainer/QueryContainer"]
+layout_mode = 2
+text = "Confirm"

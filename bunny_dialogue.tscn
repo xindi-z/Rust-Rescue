@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://c3gky2hnmfrkn"]
+
+[ext_resource type="Script" path="res://bunny_dialogue.gd" id="1_40n6g"]
+
+[node name="bunny_dialogue" type="Node2D"]
+script = ExtResource("1_40n6g")

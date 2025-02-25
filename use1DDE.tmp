@@ -1,0 +1,41 @@
+[gd_scene load_steps=3 format=3 uid="uid://4qrn2yomxi0"]
+
+[ext_resource type="Script" path="res://user_input.gd" id="1_6tlel"]
+[ext_resource type="Script" path="res://popup_panel.gd" id="1_buxm7"]
+
+[node name="UserInput" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_6tlel")
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="PopupPanel" type="PopupPanel" parent="Button"]
+size = Vector2i(100, 113)
+visible = true
+script = ExtResource("1_buxm7")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Button/PopupPanel"]
+offset_left = 4.0
+offset_top = 4.0
+offset_right = 96.0
+offset_bottom = 109.0
+
+[node name="Label" type="Label" parent="Button/PopupPanel/VBoxContainer"]
+layout_mode = 2
+
+[node name="longitude_input" type="LineEdit" parent="Button/PopupPanel/VBoxContainer"]
+layout_mode = 2
+
+[node name="latitude_input" type="LineEdit" parent="Button/PopupPanel/VBoxContainer"]
+layout_mode = 2
+
+[node name="Confirm" type="Button" parent="Button/PopupPanel/VBoxContainer"]
+layout_mode = 2

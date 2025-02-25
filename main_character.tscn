@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://qciofq74do0k"]
+
+[ext_resource type="PackedScene" uid="uid://d3wu7ckyj1idt" path="res://justModel.glb" id="1_hojod"]
+
+[node name="MainCharacter" type="Node3D"]
+
+[node name="justModel" parent="." instance=ExtResource("1_hojod")]

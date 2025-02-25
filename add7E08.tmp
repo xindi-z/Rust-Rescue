@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://crlffdw0qcw8f"]
+
+[ext_resource type="Script" path="res://add.gd" id="1_yqsn5"]
+[ext_resource type="PackedScene" uid="uid://4qrn2yomxi0" path="res://user_input.tscn" id="2_0euef"]
+
+[node name="Control" type="Button"]
+custom_minimum_size = Vector2(20, 20)
+anchors_preset = -1
+anchor_left = 0.982
+anchor_top = 0.016
+anchor_right = 0.982
+anchor_bottom = 0.016
+offset_left = -10.264
+offset_top = -9.368
+offset_right = 9.73596
+offset_bottom = 10.632
+grow_horizontal = 0
+script = ExtResource("1_yqsn5")
+
+[node name="UserInput" parent="." instance=ExtResource("2_0euef")]

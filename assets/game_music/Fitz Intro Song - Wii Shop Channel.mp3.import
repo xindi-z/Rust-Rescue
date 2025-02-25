@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c5lchbqhkfm15"
+path="res://.godot/imported/Fitz Intro Song - Wii Shop Channel.mp3-5ea10fb721fe6424c6e449ff238c2426.mp3str"
+
+[deps]
+
+source_file="res://assets/game_music/Fitz Intro Song - Wii Shop Channel.mp3"
+dest_files=["res://.godot/imported/Fitz Intro Song - Wii Shop Channel.mp3-5ea10fb721fe6424c6e449ff238c2426.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

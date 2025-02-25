@@ -1,0 +1,13 @@
+[gd_scene load_steps=4 format=3 uid="uid://lsd4jaubm1mc"]
+
+[ext_resource type="Script" path="res://main_game.gd" id="1_hjdlu"]
+[ext_resource type="PackedScene" uid="uid://b6wmts1ugb551" path="res://game_map.tscn" id="1_sunoq"]
+[ext_resource type="PackedScene" uid="uid://dm7lxbunxk4fj" path="res://player.tscn" id="2_4k6xk"]
+
+[node name="MainGame" type="Node2D"]
+script = ExtResource("1_hjdlu")
+
+[node name="GameMap" parent="." instance=ExtResource("1_sunoq")]
+metadata/_edit_use_anchors_ = true
+
+[node name="player" parent="." instance=ExtResource("2_4k6xk")]

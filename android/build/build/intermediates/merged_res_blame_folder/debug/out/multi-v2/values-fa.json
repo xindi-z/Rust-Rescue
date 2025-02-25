@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.godot.game-mergeDebugResources-18:/values-fa/values-fa.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\990e1a30944d7a05a76cc7ea2e8e22ab\\transformed\\jetified-godot-lib.template_debug\\res\\values-fa\\values-fa.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,109,183,241,301,370,440,618,791,893,972",
+                        "endColumns": "53,73,57,59,68,69,177,172,101,78,70",
+                        "endOffsets": "104,178,236,296,365,435,613,786,888,967,1038"
+                    },
+                    "to": {
+                        "startLines": "11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "950,1004,1078,1136,1196,1265,1335,1513,1686,1788,1867",
+                        "endColumns": "53,73,57,59,68,69,177,172,101,78,70",
+                        "endOffsets": "999,1073,1131,1191,1260,1330,1508,1681,1783,1862,1933"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\Desktop\\nmsu_fall24\\DGD\\final_game_project\\Rust-Rescue\\android\\build\\res\\values-fa\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "66",
+                        "endOffsets": "177"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "779",
+                        "endColumns": "69",
+                        "endOffsets": "844"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-fa\\values-fa.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,154,256,355,455,556,662,779",
+                        "endColumns": "98,101,98,99,100,105,116,100",
+                        "endOffsets": "149,251,350,450,551,657,774,875"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,154,256,355,455,556,662,849",
+                        "endColumns": "98,101,98,99,100,105,116,100",
+                        "endOffsets": "149,251,350,450,551,657,774,945"
+                    }
+                }
+            ]
+        }
+    ]
+}
