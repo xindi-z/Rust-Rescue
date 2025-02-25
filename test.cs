@@ -2,14 +2,19 @@ using Godot;
 using System;
 using System.IO.Ports;
 
-public partial class rescue : Node2D
+public partial class test : Node2D
 {
 
 
 	private SerialPort serialPort;
 	private RichTextLabel text;
 	private RescuedPrompt rescuedlPrompt;
-	
+
+
+// define signal
+	// [Signal]
+	// public delegate void AnimalRescued();
+
 	// Called when the node enters the scene tree for the first time.
 	public override void _Ready()
 	{
@@ -19,22 +24,14 @@ public partial class rescue : Node2D
 			serialPort.PortName = "COM3";
 			serialPort.BaudRate = 9600;
 			// serialPort.Open();  
-			try
-			{
-				if (!serialPort.IsOpen)
-				{
-					serialPort.Open();
-					GD.Print("Port successfully opened");
-				}
-			}
-			catch (Exception ex)
-			{
-				GD.PrintErr("Failed to open port: ", ex.Message);
+			if(!serialPort.IsOpen){  
+				serialPort.Open();  
+				GD.Print("reopen the port");
 			}
 	}
 
 	// Called every frame. 'delta' is the elapsed time since the previous frame.
-	public override async void _Process(double delta)
+	public override void _Process(double delta)
 	{
 		if(!serialPort.IsOpen){
 			GD.Print("port is closed");
@@ -50,7 +47,7 @@ public partial class rescue : Node2D
 		}
 
 	}
-	
+
 		public override void _ExitTree()
 	{
 		// close port

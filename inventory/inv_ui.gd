@@ -10,6 +10,9 @@ extends Control
 #hide inventory at first
 var is_open = false
 
+var rescue_node  # C# 脚本节点
+var my_csharp_node
+
 #intitial state
 #updating creatures into the inventory slots
 #hide the inventory
@@ -20,6 +23,13 @@ func _ready():
 	update_slots()
 	close()
 
+	my_csharp_node = get_node("/root/Main/CanvasLayer/HBoxContainer/rescue/RescuedPrompt")
+	if my_csharp_node:
+		print("Found rescue node successfully.")
+		my_csharp_node.AnimalRescued.connect(on_animal_rescued)
+	else:
+		print("Failed to find the rescue node.")
+		
 #adding creatures inventory(a list of the items's name and texture) into slots
 func update_slots():
 	for i in range(min(inv.slots.size(),slots.size())):
@@ -33,18 +43,17 @@ func _process(dealta):
 			close()
 		else:
 			open()
-	if Input.is_action_just_pressed("x"):
-		collect(item)
+
 #trigger in process to add creature into inventory
 #where this item come from? how should i set it
 #item should be stright pass to the function after sensor is pressed
 #after colleted, plot should shown(a simple story of specis background)
 
 
-func rescueTriggered():
-	DialogueManager.show_dialogue_balloon(load("res://bunnyTalk.dialogue"), "start")
-	
-	
+func on_animal_rescued():
+	print("Rescue signal received, collecting item...")
+	collect(item)
+
 func collect(item):
 	inv.insert(item)
 	DialogueManager.show_dialogue_balloon(load("res://bunnyTalk.dialogue"), "start")
