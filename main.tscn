@@ -2,7 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://dpas5wq75oivi" path="res://Map/map_container.tscn" id="1_86jw6"]
 [ext_resource type="PackedScene" uid="uid://bnkuec8jffdiw" path="res://Player/player.tscn" id="2_dbc1j"]
-[ext_resource type="PackedScene" uid="uid://debwn8vc5ptqy" path="res://Rescue.tscn" id="3_qyy6p"]
+[ext_resource type="PackedScene" uid="uid://debwn8vc5ptqy" path="res://test.tscn" id="3_qyy6p"]
 [ext_resource type="Script" path="res://android_geolocation_plugin.gd" id="4_sxnir"]
 [ext_resource type="AudioStream" uid="uid://c5lchbqhkfm15" path="res://assets/game_music/Fitz Intro Song - Wii Shop Channel.mp3" id="5_s0en0"]
 [ext_resource type="PackedScene" uid="uid://h4dwacgchxa2" path="res://inventory/inv_ui.tscn" id="6_h6ur2"]

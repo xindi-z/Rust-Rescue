@@ -1,10 +1,10 @@
 [gd_scene load_steps=3 format=3 uid="uid://debwn8vc5ptqy"]
 
-[ext_resource type="Script" path="res://test.cs" id="1_4ncwa"]
+[ext_resource type="Script" path="res://rescue.cs" id="1_umojv"]
 [ext_resource type="Script" path="res://RescuedPrompt.cs" id="2_f8bbb"]
 
-[node name="test" type="Node2D"]
-script = ExtResource("1_4ncwa")
+[node name="rescue" type="Node2D"]
+script = ExtResource("1_umojv")
 
 [node name="RichTextLabel" type="RichTextLabel" parent="."]
 offset_left = 3.0

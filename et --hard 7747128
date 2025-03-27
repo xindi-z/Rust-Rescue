@@ -1,0 +1,62 @@
+[33m7747128[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mBLE[m[33m, [m[1;31morigin/BLE[m[33m)[m testing BLE
+[33m553e287[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m singal worked
+[33mb43ed52[m[33m ([m[1;31morigin/bony[m[33m, [m[1;32mbony[m[33m)[m userInput almost done
+[33mbdb53eb[m fix the dialogue
+[33mefbe0c0[m pulling
+[33m9005744[m pulling
+[33m76d7576[m pet location input UI
+[33m2834d1d[m pet location input
+[33mbc7df77[m inventory and dialogue is working, will be working on more details
+[33m1d3937c[m Merge branch 'master' of https://github.com/xindi-z/Rust-Rescue
+[33mdcc07fe[m dialogue
+[33m6bfbf5d[m inventory is working, i to open, x to collect
+[33mcc69095[m inventory half way
+[33mb115997[m pulling for inventory
+[33ma9ca93a[m added inventory and removed some unecessaaray files
+[33m43a5657[m Merge branch 'bony'
+[33mecfa5e3[m pulling
+[33m394d22f[m pulling
+[33m21c0153[m pulling
+[33mbe8aeff[m pulling
+[33mad522c9[m main game music added
+[33m6c1c263[m player direction on screen touch added
+[33md60c8dd[m navigation on location update fixed
+[33m700f311[m navigation on location update fixed
+[33m35d56d6[m[33m ([m[1;33mtag: [m[1;33mv0.5[m[33m)[m merged with main
+[33me2c93fc[m before merging to main
+[33m368197e[m Merge branch 'bony' of https://github.com/xindi-z/Rust-Rescue into bony
+[33m63ddb8a[m some cfg
+[33ma433367[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m misc added
+[33mdcc310c[m demo2
+[33m04687ca[m added animations, working location plugin, map navigation  added
+[33m6dd9777[m added animations, working location plugin, map navigation  added
+[33m5deebc8[m added animations, working location plugin, map navigation  added
+[33m381f2d5[m added animations, working location plugin, map navigation  added
+[33mc61ed04[m added animations, working location plugin, map navigation  added
+[33me7600c7[m add wasd
+[33m71b7990[m audruino done
+[33m7a45a69[m animation looping
+[33me04cb92[m Merge branch 'bony' of https://github.com/xindi-z/Rust-Rescue into bony
+[33mdc4608c[m saving
+[33m19676a8[m Update with OSM and 3d character
+[33m7538893[m Update with OSM and 3d character
+[33mc198e55[m landing page and sound added
+[33mf35164c[m landing page and sound added
+[33m610dc9b[m nothing changed
+[33m772b3bd[m created web url
+[33md834f86[m created web url
+[33m629a45a[m just pulling
+[33m3dcfe4b[m[33m ([m[1;33mtag: [m[1;33mv1.0[m[33m, [m[1;33mtag: [m[1;33mv0.1[m[33m)[m setting up google map api and mapview
+[33m969d19c[m setting up google map api and mapview
+[33mabc7a3b[m added the blender model, and animation
+[33m5a123c5[m Nice set up for Godot
+[33mc890322[m[33m ([m[1;33mtag: [m[1;33mv0.0[m[33m)[m fixed a name in team.txt
+[33m0003988[m fixed a name in team.txt
+[33m48e983d[m github username added
+[33m95b1196[m github username added
+[33ma42aa1e[m added a name in team.txt
+[33m94c18f6[m added a name in team.txt
+[33me8dd3b8[m added a team.txt
+[33me3ee038[m added a team.txt
+[33m54ebd5a[m Initial commit
+[33ma355a23[m Initial commit
