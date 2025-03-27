@@ -34,7 +34,7 @@ public partial class test : Node2D
 	public override void _Process(double delta)
 	{
 		if(!serialPort.IsOpen){
-			GD.Print("port is closed");
+			GD.Print("port is ctfhtrfxtfrhlosed");
 			return;
 		}
 		string serialMessage = serialPort.ReadExisting();		//print out arduino print
