@@ -35,7 +35,7 @@ func _on_device_connected(address, name):
 	print("Connected to device: ", name, " (", address, ")")
 	var keyuuid = "beb5483e-36e1-4688-b7f5-ea07361b26a8"
 	
-	# 启用通知以获取实时更新
+	# getting notification
 	if ble_plugin.setCharacteristicNotifications(address, keyuuid, true):
 		print("Enabled notifications for characteristic: ", keyuuid)
 	else:
@@ -45,7 +45,8 @@ func _on_characteristic_changed(address, uuid, value):
 	print("Characteristic changed from ", address, ", UUID: ", uuid, ", New Value: ", value)
 	var str_value = value.get_string_from_utf8()
 	if str_value == "a":
-		print("✅ 收到来自压力传感器的信号：a")
+		print("recived the sensor value from blutooth：a")
+		#when get the bluetooth signal, show prompt for message
 		rescued_prompt.show_prompt()
 
 
