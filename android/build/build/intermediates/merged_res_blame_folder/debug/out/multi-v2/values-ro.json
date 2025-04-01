@@ -4,24 +4,7 @@
             "outputFile": "com.godot.game-mergeDebugResources-18:/values-ro/values-ro.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\bony\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-ro\\values-ro.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,153,255,355,454,556,665,782",
-                        "endColumns": "97,101,99,98,101,108,116,100",
-                        "endOffsets": "148,250,350,449,551,660,777,878"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,10",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,153,255,355,454,556,665,852",
-                        "endColumns": "97,101,99,98,101,108,116,100",
-                        "endOffsets": "148,250,350,449,551,660,777,948"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\bony\\Desktop\\nmsu_fall24\\DGD\\final_game_project\\Rust-Rescue\\android\\build\\res\\values-ro\\godot_project_name_string.xml",
+                    "source": "C:\\Users\\xindi\\OneDrive\\Documents\\CSGameDesign\\Rust-Rescue\\android\\build\\res\\values-ro\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -35,6 +18,23 @@
                         "startOffsets": "782",
                         "endColumns": "69",
                         "endOffsets": "847"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\xindi\\.gradle\\caches\\transforms-3\\b3547f5af51c9aa0fc1353ec1ad29946\\transformed\\core-1.13.1\\res\\values-ro\\values-ro.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,255,355,454,556,665,782",
+                        "endColumns": "97,101,99,98,101,108,116,100",
+                        "endOffsets": "148,250,350,449,551,660,777,878"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,255,355,454,556,665,852",
+                        "endColumns": "97,101,99,98,101,108,116,100",
+                        "endOffsets": "148,250,350,449,551,660,777,948"
                     }
                 }
             ]

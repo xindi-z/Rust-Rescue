@@ -185,80 +185,9 @@ public partial class rescue : Node2D
 
 	public override void _Ready()
 	{
-		text = GetNode<RichTextLabel>("RichTextLabel");
-		rescuedlPrompt = GetNode<RescuedPrompt>("RescuedPrompt");
 
-		if (Engine.HasSingleton("BLEPlugin"))
-		{
-			blePlugin = Engine.GetSingleton("BLEPlugin");
-			blePlugin.Call("initialize");
-			GD.Print("✅ BLE Plugin 已初始化");
-
-			blePlugin.Connect("device_found", new Callable(this, nameof(_OnDeviceFound)));
-			blePlugin.Connect("device_connected", new Callable(this, nameof(_OnDeviceConnected)));
-			blePlugin.Connect("device_connection_failed", new Callable(this, nameof(_OnDeviceConnectionFailed)));
-			blePlugin.Connect("characteristic_changed", new Callable(this, nameof(_OnDataReceived)));
-			blePlugin.Connect("notification_enabled", new Callable(this, nameof(_OnNotificationEnabled)));
-
-			// 去掉过滤器
-			//blePlugin.Call("start_scan");
-			GD.Print("🔍 开始扫描 BLE 设备...");
-			GD.Print("📡 支持的 BLE 信号: ");
-
-		}
-		else
-		{
-			GD.PrintErr("❌ BLE Plugin 未找到！");
-		}
 	}
 
-	private void _OnDeviceFound(string deviceName, string deviceAddress)
-	{
-		GD.Print($"📡 发现设备: {deviceName} 地址: {deviceAddress}");
-		if (deviceName == targetDeviceName)
-		{
-			GD.Print($"✅ 发现目标设备 {targetDeviceName}，正在连接...");
-			blePlugin.Call("stop_scan");
-			connectedDevice = deviceAddress;
-			blePlugin.Call("connect_device", connectedDevice);
-		}
-		else{
-			GD.Print("Couldn't find device!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
-		}
-	}
-
-	private void _OnDeviceConnected()
-	{
-		GD.Print("✅ 成功连接到 ESP32 设备！");
-		blePlugin.Call("enable_notifications", connectedDevice, serviceUUID, characteristicUUID);
-	}
-
-	private void _OnDeviceConnectionFailed(string deviceAddress)
-	{
-		GD.PrintErr($"❌ 设备连接失败: {deviceAddress}");
-	}
-
-	private void _OnNotificationEnabled(string deviceAddress, string characteristic)
-	{
-		GD.Print($"✅ 订阅成功: {characteristic}");
-	}
-
-	private void _OnDataReceived(string deviceAddress, string characteristic, string value)
-	{
-		GD.Print($"📊 接收到 BLE 数据: {value}");
-		if (int.TryParse(value, out int pressureValue))
-		{
-			GD.Print($"💡 压力传感器数据: {pressureValue}");
-			if (pressureValue > 50) 
-			{
-				TriggerRescue();
-			}
-		}
-		else
-		{
-			GD.PrintErr("❌ 解析压力数据失败！");
-		}
-	}
 
 	private void TriggerRescue()
 	{

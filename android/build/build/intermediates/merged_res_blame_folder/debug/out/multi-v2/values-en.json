@@ -4,7 +4,7 @@
             "outputFile": "com.godot.game-mergeDebugResources-18:/values-en/values-en.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\bony\\Desktop\\nmsu_fall24\\DGD\\final_game_project\\Rust-Rescue\\android\\build\\res\\values-en\\godot_project_name_string.xml",
+                    "source": "C:\\Users\\xindi\\OneDrive\\Documents\\CSGameDesign\\Rust-Rescue\\android\\build\\res\\values-en\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",

@@ -1,10 +1,10 @@
 [gd_scene load_steps=3 format=3 uid="uid://debwn8vc5ptqy"]
 
-[ext_resource type="Script" path="res://rescue.cs" id="1_4ncwa"]
-[ext_resource type="Script" path="res://RescuedPrompt.cs" id="2_f8bbb"]
+[ext_resource type="Script" path="res://rescue.gd" id="1_a8y8j"]
+[ext_resource type="Script" path="res://rescued_prompt.gd" id="2_5vpmw"]
 
 [node name="rescue" type="Node2D"]
-script = ExtResource("1_4ncwa")
+script = ExtResource("1_a8y8j")
 
 [node name="RichTextLabel" type="RichTextLabel" parent="."]
 offset_left = 3.0
@@ -17,7 +17,7 @@ position = Vector2i(451, 249)
 size = Vector2i(250, 150)
 theme_override_constants/close_v_offset = 0
 theme_override_font_sizes/title_font_size = 1
-script = ExtResource("2_f8bbb")
+script = ExtResource("2_5vpmw")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="RescuedPrompt"]
 anchors_preset = 8
