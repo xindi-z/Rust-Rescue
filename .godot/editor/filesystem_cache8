@@ -1,5 +1,5 @@
 e22c9c70a03ae172662e56cbc433647f
-::res://::1743053350
+::res://::1743093453
 3d_character.tscn::PackedScene::2547706291817148536::1743053317::0::1::::<><>::uid://b0ymlfy8mxtj4::::res://Player/justModel.glb
 3d_model.tscn::PackedScene::7947950159406217321::1743053317::0::1::::<><>::uid://sxqdhofh4tsp::::res://assets/3d_models/justModel.glb
 add.gd::GDScript::-1::1739502546::0::1::::<>Node<>::
@@ -16,7 +16,7 @@ bunny_dialogue.tscn::PackedScene::6751166714307847533::1739502549::0::1::::<><>:
 cac-1743046551731.gltf::PackedScene::3562235462699225535::1743046967::1743053365::1::::<><>::uid://bmkfuqvwogit7::::res://cac-1743046551731_0.png<>uid://dximve0ybcd7t::::res://cac-1743046551731_1.png
 cac-1743046551731_0.png::CompressedTexture2D::3249670759565046486::1743046968::1743053359::1::::<><>::
 cac-1743046551731_1.png::CompressedTexture2D::8790886832177107263::1743046974::1743053363::1::::<><>::
-export_presets.cfg::TextFile::-1::1743053320::0::1::::<><>::
+export_presets.cfg::TextFile::-1::1743065011::0::1::::<><>::
 geocaches.tscn::PackedScene::7759498072868051293::1739502549::0::1::::<><>::
 Godot-OSM-POC.apple-touch-icon.png::CompressedTexture2D::720533637610834784::1739502495::1743053358::1::::<><>::
 Godot-OSM-POC.icon.png::CompressedTexture2D::3018526979835777089::1739502495::1743053358::1::::<><>::
@@ -29,7 +29,7 @@ Inv_slot.gd::GDScript::-1::1739502546::0::1::::InvSlot<>Resource<>::
 justModel.glb::PackedScene::9171237590392063865::1743053320::1743053366::1::::<><>::
 just_model.tscn::PackedScene::2136702865760944437::1743053320::0::1::::<><>::uid://d3wu7ckyj1idt::::res://justModel.glb
 main.gd::GDScript::-1::1733737254::0::1::::<>RefCounted<>::
-main.tscn::PackedScene::7702588047323913116::1743053320::0::1::::<><>::uid://dpas5wq75oivi::::res://Map/map_container.tscn<>uid://bnkuec8jffdiw::::res://Player/player.tscn<>uid://debwn8vc5ptqy::::res://Rescue.tscn<>res://android_geolocation_plugin.gd<>uid://c5lchbqhkfm15::::res://assets/game_music/Fitz Intro Song - Wii Shop Channel.mp3<>uid://h4dwacgchxa2::::res://inventory/inv_ui.tscn<>uid://crlffdw0qcw8f::::res://addButton.tscn
+main.tscn::PackedScene::7702588047323913116::1743064993::0::1::::<><>::uid://dpas5wq75oivi::::res://Map/map_container.tscn<>uid://bnkuec8jffdiw::::res://Player/player.tscn<>uid://debwn8vc5ptqy::::res://test.tscn<>res://android_geolocation_plugin.gd<>uid://c5lchbqhkfm15::::res://assets/game_music/Fitz Intro Song - Wii Shop Channel.mp3<>uid://h4dwacgchxa2::::res://inventory/inv_ui.tscn<>uid://crlffdw0qcw8f::::res://addButton.tscn
 main_character.tscn::PackedScene::1127661279599881596::1743053320::0::1::::<><>::uid://d3wu7ckyj1idt::::res://justModel.glb
 main_game.gd::GDScript::-1::1739502549::0::1::::<>Node2D<>::
 main_menu.gd::GDScript::-1::1739502549::0::1::::<>Control<>::
@@ -43,13 +43,14 @@ player_mode.tscn::PackedScene::8611927158103889408::1743053320::0::1::::<><>::
 popup_panel.gd::GDScript::-1::1733732375::0::1::::<>RefCounted<>::
 RedCarWalk (1).png::CompressedTexture2D::5353126168974158745::1733737254::1743053351::1::::<><>::
 RedCarWalk (2).png::CompressedTexture2D::2132258549220342966::1733737254::1743053351::1::::<><>::
-rescue.cs::CSharpScript::-1::1743053320::0::1::::<>Node2D<>::
+rescue.cs::CSharpScript::-1::1743062087::0::1::::<><>::
+rescue.gd::GDScript::-1::1743064993::0::1::::<>Node2D<>::
 Rescue.tscn::PackedScene::7443442558390138844::1743053317::0::1::::<><>::res://rescue.cs<>res://RescuedPrompt.cs
-RescuedPrompt.cs::CSharpScript::-1::1740476052::0::1::::<>Window<>::
+RescuedPrompt.cs::CSharpScript::-1::1743053946::0::1::::<>Window<>::
 running_model.tscn::PackedScene::7230399198882699537::1743053320::0::1::::<><>::uid://sxqdhofh4tsp::::res://assets/3d_models/justModel.glb
 team.txt::TextFile::-1::1739502496::0::1::::<><>::
-test.cs::CSharpScript::-1::1743053320::0::1::::<>Node2D<>::
-test.tscn::PackedScene::7443442558390138844::1733737254::0::1::::<><>::res://test.cs<>res://RescuedPrompt.cs
+test.cs::CSharpScript::-1::1743053504::0::1::::<>Node2D<>::
+test.tscn::PackedScene::7443442558390138844::1743062087::0::1::::<><>::res://rescue.gd<>res://RescuedPrompt.cs
 user_input.gd::GDScript::-1::1739502549::0::1::::<>Window<>::
 user_input.tscn::PackedScene::60869510871308677::1740462544::0::1::::<><>::res://user_input.gd
 ::res://addons/::1739502546
@@ -71,7 +72,7 @@ plugin.gd::GDScript::-1::1739502546::0::1::::<>EditorPlugin<>::
 settings.gd::GDScript::-1::1739502546::0::1::::<>Node<>::
 test_scene.gd::GDScript::-1::1739502546::0::1::::BaseDialogueTestScene<>Node2D<>::
 test_scene.tscn::PackedScene::-1::1739502546::0::1::::<><>::res://addons/dialogue_manager/test_scene.gd
-::res://addons/dialogue_manager/assets/::1743053317
+::res://addons/dialogue_manager/assets/::1743053358
 icon.svg::CompressedTexture2D::9148339284877624195::1739502546::1743053358::1::::<><>::
 responses_menu.svg::CompressedTexture2D::8371359403825774630::1739502546::1743053358::1::::<><>::
 update.svg::CompressedTexture2D::9126631778427806641::1739502546::1743053358::1::::<><>::
@@ -130,30 +131,30 @@ plugin.cfg::TextFile::-1::1739502546::0::1::::<><>::
 ::res://addons/GeolocationPlugin/bin/debug/::1739502546
 ::res://addons/GeolocationPlugin/bin/release/::1739502546
 ::res://android/::1742251414
-::res://android/plugins/::1742269506
-::res://assets/::1743053320
+::res://android/plugins/::1743093351
+::res://assets/::1743053359
 5.png::CompressedTexture2D::6767466682315078424::1739502549::1743053359::1::::<><>::
-::res://assets/3d_models/::1743053320
+::res://assets/3d_models/::1743053366
 justModel.glb::PackedScene::1311857092622342583::1743053320::1743053366::1::::<><>::
-::res://assets/game_music/::1743053320
+::res://assets/game_music/::1743053358
 Fitz Intro Song - Wii Shop Channel.mp3::AudioStreamMP3::6901348843936541802::1739502549::1743053358::1::::<><>::
 ::res://bunnyPlot/::1739502549
 balloon.gd::GDScript::-1::1739502549::0::1::::<>CanvasLayer<>::
 Balloon.tscn::PackedScene::2304415056852043862::1739502549::0::1::::<><>::res://bunnyPlot/balloon.gd<>uid://ckvgyvclnwggo::::res://addons/dialogue_manager/dialogue_label.tscn<>res://addons/dialogue_manager/dialogue_reponses_menu.gd
 DialogueBalloon.cs::CSharpScript::-1::1739502549::0::1::::<>CanvasLayer<>::
-::res://creatures/::1743053320
+::res://creatures/::1743053358
 bunny.png::CompressedTexture2D::1639250801809120279::1739502549::1743053358::1::::<><>::
-::res://Images/::1743053317
+::res://Images/::1743053358
 player_view_phl.png::CompressedTexture2D::509680318328548421::1739502496::1743053358::1::::<><>::
-::res://inventory/::1743053320
+::res://inventory/::1743054000
 inventory.gd::GDScript::-1::1739502549::0::1::::Inv<>Resource<>::
 inventory_item.gd::GDScript::-1::1739502549::0::1::::InvItem<>Resource<>::
 inv_bg.png::CompressedTexture2D::187851793262767979::1739502549::1743053359::1::::<><>::
-inv_ui.gd::GDScript::-1::1740475991::0::1::::<>Control<>::
+inv_ui.gd::GDScript::-1::1743054000::0::1::::<>Control<>::
 inv_ui.tscn::PackedScene::551410302143363087::1739502549::0::1::::<><>::res://inventory/inv_ui.gd<>uid://cw85kxbhd7hv::::res://inventory/inv_bg.png<>uid://cmnh8hg35c82p::::res://inventory/creatures/bunny_resized.tres<>uid://baafo7ctlhpt::::res://inventory/inv_ui_slot.tscn
 inv_ui_slot.gd::GDScript::-1::1739502549::0::1::::<>Panel<>::
 inv_ui_slot.tscn::PackedScene::70198557484902389::1739502549::0::1::::<><>::res://inventory/inv_ui_slot.gd<>uid://8yqolfk65w04::::res://nest.png
-playerinv.tres::Resource/Inv::7196078270393577395::1743053320::0::1::::<><>::res://Inv_slot.gd<>res://inventory/inventory.gd
+playerinv.tres::Resource/Inv::7196078270393577395::1743053447::0::1::::<><>::res://Inv_slot.gd<>res://inventory/inventory.gd
 ::res://inventory/creatures/::1739502549
 bunny.tres::Resource/InvItem::6833898025130460610::1733645651::0::1::::<><>::res://inventory/inventory_item.gd<>uid://bs4xfhpfjs1w1::::res://bunny2.png
 bunny_resized.tres::Resource/InvItem::5642428730238271769::1739502549::0::1::::<><>::res://inventory/inventory_item.gd<>uid://xmchryms65h0::::res://creatures/bunny.png
@@ -163,7 +164,7 @@ Map_container.gd::GDScript::-1::1739502546::0::1::::<>Node3D<>::
 map_container.tscn::PackedScene::8213242367061889858::1739502496::0::1::::<><>::res://Map/Map_container.gd
 map_tile.gd::GDScript::-1::1739502496::0::1::::<>Node<>::
 map_tile.tscn::PackedScene::8868636729884472457::1739502496::0::1::::<><>::res://Map/map_tile.gd
-::res://Player/::1743053317
+::res://Player/::1743053365
 justModel.glb::PackedScene::4191435389595884723::1743053317::1743053365::1::::<><>::
 player.gd::GDScript::-1::1739502546::0::1::::<>Node3D<>::
 player.tscn::PackedScene::3320741068000115466::1743053317::0::1::::<><>::res://Player/player.gd<>uid://dbapva52xgdhx::::res://running_model.tscn
