@@ -1,6 +1,10 @@
+Sprite3D
+Sprite2D
+Node3D
+Node2D
+Button
 Control
 TextureRect
-Button
 MarginContainer
 LineEdit
 Label
@@ -8,8 +12,3 @@ VBoxContainer
 Window
 PopupPanel
 TextureButton
-Panel
-Sprite2D
-HBoxContainer
-CanvasLayer
-CenterContainer

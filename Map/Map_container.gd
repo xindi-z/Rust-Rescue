@@ -93,7 +93,7 @@ func _physics_process(delta):
 	log_label.text = str('Target: ', target)
 
 	# if its still moving
-	var is_now_moving = global_transform.origin.distance_to(target) >= 0.1
+	var is_now_moving = global_transform.origin.distance_to(target) >= 0.5
 
 	# if moving status changed
 	if is_now_moving != was_moving:
@@ -128,3 +128,25 @@ func _on_tile_purge_timer_timeout():
 		if tile.global_position.distance_to(Vector3.ZERO) > max(grid_height, grid_width)*2:
 			tile_cache.erase([tile.tile_x, tile.tile_y])
 			tile.queue_free()
+
+#for show animal hidden spot(not fully working yet)
+var marker_scene := preload("res://UI/target_marker.tscn")
+var current_marker: Node3D = null
+
+func mark_target_location(lat: float, lon: float):
+	var coords = _mercator_projection(lat, lon, zoom)
+
+# Convert tile coordinates to world coordinates on the map
+	var x_offset = grid_width / 2
+	var y_offset = grid_height / 2
+	var world_pos = Vector3(coords.x - x_offset, 0, coords.y - y_offset)
+
+	# clear old marker
+	if current_marker:
+		current_marker.queue_free()
+
+	current_marker = marker_scene.instantiate()
+	current_marker.position = world_pos
+	add_child(current_marker)
+
+	print("Marker placed at world position:", world_pos)
