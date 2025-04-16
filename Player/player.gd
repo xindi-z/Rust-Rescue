@@ -7,6 +7,38 @@ var current_tile
 @export var ray_cast_per_second: float = 4 
 var time_since_last_cast: float = 0.0
 
+func _ready():
+	var anim_player = $michelle/AnimationPlayer
+	if anim_player == null:
+		push_error("AnimationPlayer not found at path: $michelle/AnimationPlayer")
+	else:
+		print("AnimationPlayer found.")
+#	connect signal to function _on_movement_state_changed
+	$"../Map_container".movement_state_changed.connect(_on_movement_state_changed)
+
+#controlling character animations according to map
+func _on_movement_state_changed(is_moving):
+	var anim_player = $michelle/AnimationPlayer
+	var anim = "Walking0" if is_moving else "Ideal"
+
+	if not anim_player.has_animation(anim):
+		push_error("Animation not found: " + anim)
+		return
+		
+	if anim_player.current_animation != anim:
+		anim_player.play(anim)
+		print("Now playing animation: ", anim)
+	
+	# controlling the character direction
+	if is_moving:
+		var map = $"../Map_container"
+		var dir = map.target - map.global_transform.origin
+		if dir.length() > 0.01:
+			var forward = dir.normalized()
+			look_at(global_transform.origin + forward, Vector3.UP)
+
+
+
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	# reduce unnessesary ray casting

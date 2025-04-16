@@ -19,21 +19,11 @@ const speed = 1
 @export var grid_height = 10
 @export var tile_scale = 1.0
 
-
-#var new_lat : float = 32.28290097299436
-#var new_lon : float = -106.74787421312638
 var new_latitude: float = 0.0
 var new_longitude: float = 0.0
 
 var target = Vector3.ZERO
-
-
-
 var initialized = false
-
-
-
-
 
 func _ready():
 	var coords = _mercator_projection(latitude, longitude, zoom)
@@ -80,66 +70,41 @@ func create_tile(x: int, y: int) -> Node3D:
 	tile_cache[[x, y]] = tile
 	return tile
 
-# move the world under the player
+## move the world under the player
+#func _physics_process(delta):
+	#target = calculate_movement(new_latitude, new_longitude, latitude, longitude)
+	#log_label.text = str('Target: ', target)
+	#var moving: bool = true
+	#if moving:
+		## Move towards the target point at a fixed speed
+		#global_transform.origin = global_transform.origin.move_toward(target, speed * delta)
+		#
+		## Stop moving when close enough to the target
+		#if global_transform.origin.distance_to(target) < 0.1:
+			#moving = false  # Stop movement when target is reached
+			##print("Reached point B")
+	
+signal movement_state_changed(is_moving: bool)
+
+var was_moving = false  # if it was moving
+
 func _physics_process(delta):
 	target = calculate_movement(new_latitude, new_longitude, latitude, longitude)
 	log_label.text = str('Target: ', target)
-	var moving: bool = true
-	if moving:
-		# Move towards the target point at a fixed speed
+
+	# if its still moving
+	var is_now_moving = global_transform.origin.distance_to(target) >= 0.1
+
+	# if moving status changed
+	if is_now_moving != was_moving:
+		emit_signal("movement_state_changed", is_now_moving)
+		was_moving = is_now_moving
+
+	# map moving logic
+	if is_now_moving:
 		global_transform.origin = global_transform.origin.move_toward(target, speed * delta)
-		
-		# Stop moving when close enough to the target
-		if global_transform.origin.distance_to(target) < 0.1:
-			moving = false  # Stop movement when target is reached
-			#print("Reached point B")
-	#var delta_coords = current_coords - previous_coords
-	#print(delta_coords) 
-	# Calculate the change in latitude and longitude
-	#var delta_lat = new_latitude - previous_latitude
-	#var delta_lon = new_longitude - previous_longitude
-	#
-	#var movement_meters = gps_to_meters(delta_lat, delta_lon, new_latitude)
-#
-		# Convert the change to a movement vector
-	#var movement = Vector3(delta_lon * gps_scale, 0, -delta_lat * gps_scale) * delta * speed
-	#var movement = Vector3(delta_coords.x * tile_scale, 0, -delta_coords.y * tile_scale) * 0.1 * delta
-	#print(delta)
-	#log_label.text = str('Location Update: ', movement)
-#
-	#if movement.length() > 0:
-		#for tile in tile_bucket.get_children():
-			#tile.position += movement
-#
-		# Update previous coordinates after applying the movement
-		#previous_latitude = new_latitude
-		#previous_longitude = new_longitude    
-	#if Input.is_action_pressed("up"):
-		#direction.z += 1
-	#if Input.is_action_pressed("down"):
-		#direction.z -= 1
-	#if Input.is_action_pressed("left"):
-		#direction.x += 1
-	#if Input.is_action_pressed("right"):
-		#direction.x -= 1
-	##print(delta_coords)
-	#var movement = direction * speed * delta
-	##var movement = Vector3(delta_coords.x, 0, -delta_coords.y) * 0.1 * delta
-	##log_label.text = str('Location Update: ', movement)
-	#for tile in tile_bucket.get_children():
-		#tile.position = tile.position + movement
 
-# converts latitude and longitude into grid coordinates, correcting for the
-# distortion that happens when you represent the globe on a 2D map
-#func _mercator_projection(lat: float, lon: float, zoom: int ) -> Dictionary:
 
-#not wanted
-# function to rotate character direction
-#func _input(event: InputEvent) -> void:
-#	if event is InputEventScreenDrag:
-#		var tempRot = rotation.y - event.relative.x / 1000 * 3
-#		rotation.y = tempRot
- 
 func _mercator_projection(lat: float, lon: float, zoom: int) -> Vector2:
 	var n = 2.0 ** zoom
 	var x_tile = floor((lon + 180.0) / 360.0 * n)
@@ -163,21 +128,3 @@ func _on_tile_purge_timer_timeout():
 		if tile.global_position.distance_to(Vector3.ZERO) > max(grid_height, grid_width)*2:
 			tile_cache.erase([tile.tile_x, tile.tile_y])
 			tile.queue_free()
-
-#some issue
-#func place_pin_on_tile(latitude: float, longitude: float):
-	#var tile_coords = _mercator_projection(latitude, longitude, zoom)
-	#print("tile_coords", tile_coords)
-#
-	#if !tile_cache.has([tile_coords.x, tile_coords.y]):
-		#generate_grid(tile_coords.x, tile_coords.y, Vector3(0, 0, 0))
-##
-	#var target_tile = tile_cache.get([tile_coords.x, tile_coords.y])
-	#print(target_tile)
-##
-	#if target_tile != null and target_tile.position != Vector3.ZERO:
-		#print("Tile Position: ", target_tile.position)  
-		#var pin = Sprite3D.new()
-		#pin.texture = preload("res://creatures/bunny.png")  
-		#pin.position = target_tile.position 
-		#add_child(pin)
