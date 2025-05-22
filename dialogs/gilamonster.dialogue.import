@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_13"
+type="Resource"
+uid="uid://dgre07ygh7dgh"
+path="res://.godot/imported/gilamonster.dialogue-390127d83f731caa90e1863caae9ae4c.tres"
+
+[deps]
+
+source_file="res://dialogs/gilamonster.dialogue"
+dest_files=["res://.godot/imported/gilamonster.dialogue-390127d83f731caa90e1863caae9ae4c.tres"]
+
+[params]
+
+defaults=true

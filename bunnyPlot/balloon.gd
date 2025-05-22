@@ -42,9 +42,13 @@ var dialogue_line: DialogueLine:
 
 		character_label.visible = not dialogue_line.character.is_empty()
 		character_label.text = tr(dialogue_line.character, "dialogue")
-		var portrait_path: String = "res://creatures/%s.png" %dialogue_line.character.to_lower()
-		if ResourceLoader.exists(portrait_path):
-			portrait.texture = load(portrait_path)
+		var portrait_path_png: String = "res://creatures/%s.png" %dialogue_line.character.to_lower()
+		var portrait_path_jpg: String = "res://creatures/%s.jpg" %dialogue_line.character.to_lower()
+
+		if ResourceLoader.exists(portrait_path_png):
+			portrait.texture = load(portrait_path_png)
+		elif ResourceLoader.exists(portrait_path_jpg):
+			portrait.texture = load(portrait_path_jpg)
 		else:
 			print("Character name received:", dialogue_line.character)
 			portrait.texture = preload("res://creatures/bunny.png")  # set a default

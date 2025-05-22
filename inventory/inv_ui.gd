@@ -41,6 +41,7 @@ func _process(dealta):
 			close()
 		else:
 			open()
+			DialogueManager.show_dialogue_balloon(load("res://dialogs/gilamonster.dialogue"), "start")
 
 #trigger in process to add creature into inventory
 #where this item come from? how should i set it
@@ -54,7 +55,7 @@ func on_animal_rescued():
 	
 func collect(item):
 	inv.insert(item)
-	DialogueManager.show_dialogue_balloon(load("res://bunnyTalk.dialogue"), "start")
+	DialogueManager.show_dialogue_balloon(load("res://dialogs/gilamonster.dialogue"), "start")
 
 
 func open():
