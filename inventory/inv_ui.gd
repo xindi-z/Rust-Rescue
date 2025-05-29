@@ -7,6 +7,10 @@ extends Control
 @onready var toggle_btn: Button = $"../../invButton"
 @onready var rescued_prompt = get_node("/root/Main/CanvasLayer/HBoxContainer/rescue/RescuedPrompt")
 
+#initilize for animal query
+@onready var quiz_scene = preload("res://animal_quiz.tscn")
+var quiz_instance: AcceptDialog
+
 #intitial state
 #updating creatures into the inventory slots
 #hide the inventory
@@ -21,7 +25,7 @@ func _ready():
 	inv.update.connect(update_slots)
 	update_slots()
 	close()
-
+	
 #when recived signal, call on_animal_rescued
 	if rescued_prompt:
 		print("Found RescuedPrompt node.")
@@ -46,7 +50,7 @@ func _process(dealta):
 #trigger in process to add creature into inventory
 func _on_ToggleButton_pressed():
 	_toggle_inventory()
-	
+
 func _toggle_inventory():
 	if is_open:
 		close()
@@ -71,3 +75,11 @@ func open():
 func close():
 	visible = false
 	is_open = false
+
+func show_animal_quiz():
+	if not quiz_instance:
+		quiz_instance = quiz_scene.instantiate()
+		add_child(quiz_instance)
+	
+	quiz_instance.show_quiz()
+#call show_animal_quiz() to use

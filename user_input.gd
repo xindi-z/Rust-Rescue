@@ -1,4 +1,4 @@
-extends Window
+extends AcceptDialog
 
 @onready var latitude_input: LineEdit = $MarginContainer/QueryContainer/LatContainer/LineEdit
 @onready var longitude_input: LineEdit = $MarginContainer/QueryContainer/LonContainer/LineEdit
@@ -6,7 +6,7 @@ extends Window
 
 func _ready():
 	print("UserInput window ready")
-	confirm_button.pressed.connect(_on_confirm_pressed)
+	self.confirmed.connect(_on_confirm_pressed)
 
 func _on_confirm_pressed():
 	var lat = latitude_input.text.to_float()
