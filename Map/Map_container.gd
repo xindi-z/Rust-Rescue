@@ -1,4 +1,5 @@
 extends Node3D
+
 var tile_cache = {}
 @onready var tile_bucket = $MapTiles
 var map_tile = load("res://Map/map_tile.tscn") as PackedScene
@@ -22,23 +23,26 @@ const speed = 1
 var new_latitude: float = 0.0
 var new_longitude: float = 0.0
 
-var target = Vector3.ZERO
-var initialized = false
+signal movement_state_changed(is_moving: bool)
+var was_moving = false
+
+# pinicon related
+var center_coord : Vector2
+@onready var marker_scene := preload("res://UI/target_marker.tscn") as PackedScene
+var current_marker : Node3D  = null
+
 
 func _ready():
+	center_coord = _mercator_projection(latitude, longitude, zoom)
+	# load tile with center_coord
+	var origin_tile = Vector2(floor(center_coord.x), floor(center_coord.y))
+	generate_grid(origin_tile.x, origin_tile.y, Vector3.ZERO)
+	
 	var coords = _mercator_projection(latitude, longitude, zoom)
-	#var dest = _mercator_projection(new_lat, new_lon, zoom)
-	#print("origin: ", coords)
-	#print("Target: ", dest)
 	generate_grid(coords.x, coords.y, Vector3(0, 0, 0))
 	new_latitude = latitude
 	new_longitude = longitude
 	android_plugin.android_location_updated.connect(self._on_location_update)
-	#place_pin_on_tile(32.290052,-106.753893)
-	
-	
-	#log_label.text = str('Location Update: Latitude[',latitude, '], Longitude[', longitude, ']')
-	#android_plugin.android_location_permission_updated.connect(self._on_location_permission)
 	
 #Handles GPS Updates
 func _on_location_update(location_dictionary: Dictionary) -> void:
@@ -47,8 +51,7 @@ func _on_location_update(location_dictionary: Dictionary) -> void:
 	new_longitude = location_dictionary["longitude"]
 	log_label.text = str('Location Update: Latitude[', new_latitude, '], Longitude[', new_longitude, ']')
 	
-	
-func generate_grid(start_x, start_y, origin_positon):
+func generate_grid(start_x: int, start_y: int, origin_positon: Vector3) -> void:
 	var x_offset = grid_width / 2 
 	var y_offset = grid_height / 2
 	var load_count = 0
@@ -70,40 +73,21 @@ func create_tile(x: int, y: int) -> Node3D:
 	tile_cache[[x, y]] = tile
 	return tile
 
-## move the world under the player
-#func _physics_process(delta):
-	#target = calculate_movement(new_latitude, new_longitude, latitude, longitude)
-	#log_label.text = str('Target: ', target)
-	#var moving: bool = true
-	#if moving:
-		## Move towards the target point at a fixed speed
-		#global_transform.origin = global_transform.origin.move_toward(target, speed * delta)
-		#
-		## Stop moving when close enough to the target
-		#if global_transform.origin.distance_to(target) < 0.1:
-			#moving = false  # Stop movement when target is reached
-			##print("Reached point B")
-	
-signal movement_state_changed(is_moving: bool)
-
-var was_moving = false  # if it was moving
-
 func _physics_process(delta):
-	target = calculate_movement(new_latitude, new_longitude, latitude, longitude)
+	var target = calculate_movement(new_latitude, new_longitude, latitude, longitude)
 	log_label.text = str('Target: ', target)
 
 	# if its still moving
-	var is_now_moving = global_transform.origin.distance_to(target) >= 0.5
-
+	var is_moving = global_transform.origin.distance_to(target) >= 0.5
+	
 	# if moving status changed
-	if is_now_moving != was_moving:
-		emit_signal("movement_state_changed", is_now_moving)
-		was_moving = is_now_moving
+	if is_moving != was_moving:
+		emit_signal("movement_state_changed", is_moving)
+		was_moving = is_moving
 
 	# map moving logic
-	if is_now_moving:
+	if is_moving:
 		global_transform.origin = global_transform.origin.move_toward(target, speed * delta)
-
 
 func _mercator_projection(lat: float, lon: float, zoom: int) -> Vector2:
 	var n = 2.0 ** zoom
@@ -129,24 +113,28 @@ func _on_tile_purge_timer_timeout():
 			tile_cache.erase([tile.tile_x, tile.tile_y])
 			tile.queue_free()
 
-#for show animal hidden spot(not fully working yet)
-var marker_scene := preload("res://UI/target_marker.tscn")
-var current_marker: Node3D = null
+#for pinicon
+func _mercator_coord(lat: float, lon: float, zoom: int) -> Vector2:
+	var n     = 2.0 ** zoom
+	var x     = (lon + 180.0) / 360.0 * n
+	var lat_r = deg_to_rad(lat)
+	var y     = (1.0 - log(tan(lat_r) + 1.0/cos(lat_r)) / PI) / 2.0 * n
+	return Vector2(x, y)
 
-func mark_target_location(lat: float, lon: float):
-	var coords = _mercator_projection(lat, lon, zoom)
+func mark_target_location(lat: float, lon: float) -> void:
+	# calculate the precise tile coordinates
+	var coord = _mercator_coord(lat, lon, zoom)
+	# Subtract the center to get the local offset
+	var delta = coord - center_coord    # Vector2(dx, dy)
+	# Convert to world coordinates
+	var local_pos = Vector3(delta.x * tile_scale, 0, delta.y * tile_scale)
 
-# Convert tile coordinates to world coordinates on the map
-	var x_offset = grid_width / 2
-	var y_offset = grid_height / 2
-	var world_pos = Vector3(coords.x - x_offset, 0, coords.y - y_offset)
-
-	# clear old marker
+	# delete old marker
 	if current_marker:
 		current_marker.queue_free()
 
-	current_marker = marker_scene.instantiate()
-	current_marker.position = world_pos
+	# Instantiate and place it under Map_container
+	current_marker = marker_scene.instantiate() as Node3D
 	add_child(current_marker)
-
-	print("Marker placed at world position:", world_pos)
+	current_marker.position = local_pos
+	print("mark_target at coords:", coord, " center:", center_coord, " local_pos:", local_pos)
