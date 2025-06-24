@@ -1,10 +1,10 @@
 e22c9c70a03ae172662e56cbc433647f
-::res://::1749677781
+::res://::1749723733
 add.gd::GDScript::-1::1744786854::0::1::::<>Button<>::
-addButton.tscn::PackedScene::5989072571173886703::1748489906::0::1::::<><>::res://add.gd<>uid://4qrn2yomxi0::::res://user_input.tscn
+addButton.tscn::PackedScene::5989072571173886703::1749723691::0::1::::<><>::res://add.gd<>uid://4qrn2yomxi0::::res://user_input.tscn
 android_geolocation_plugin.gd::GDScript::-1::1743494469::0::1::::AndroidGeolocationPlugin<>Node<>::
 animal_quiz.gd::GDScript::-1::1748510094::0::1::::<>AcceptDialog<>::
-animal_quiz.tscn::PackedScene::6407288987157084254::1748510158::0::1::::<><>::res://animal_quiz.gd<>uid://dkvc0rs5t1oiy::::res://creatures/gila monster.jpg
+animal_quiz.tscn::PackedScene::6407288987157084254::1749723691::0::1::::<><>::res://animal_quiz.gd<>uid://dkvc0rs5t1oiy::::res://creatures/gila monster.jpg
 bunny.png::CompressedTexture2D::8539971940302696614::1748510094::1748510156::1::::<><>::
 bunnyTalk.dialogue::Resource::8368683388635517262::1743494469::1744096298::1::::<><>::res://addons/dialogue_manager/dialogue_resource.gd
 bunny_dialogue.gd::GDScript::-1::1743494469::0::1::::<>BaseDialogueTestScene<>::
@@ -12,8 +12,9 @@ bunny_dialogue.tscn::PackedScene::6751166714307847533::1746689313::0::1::::<><>:
 cac-1743046551731.gltf::PackedScene::3562235462699225535::1744097406::1744102914::1::::<><>::uid://bmkfuqvwogit7::::res://cac-1743046551731_0.png<>uid://dximve0ybcd7t::::res://cac-1743046551731_1.png
 cac-1743046551731_0.png::CompressedTexture2D::3249670759565046486::1743494607::1744102908::1::::<><>::
 cac-1743046551731_1.png::CompressedTexture2D::8790886832177107263::1743494607::1744102912::1::::<><>::
-export_presets.cfg::TextFile::-1::1747951945::0::1::::<><>::
+export_presets.cfg::TextFile::-1::1749692351::0::1::::<><>::
 geocaches.tscn::PackedScene::7759498072868051293::1746689314::0::1::::<><>::
+geoFenceArea.tscn::PackedScene::7847550179298325352::1749723692::0::1::::<><>::
 Godot-OSM-POC.apple-touch-icon.png::CompressedTexture2D::720533637610834784::1739502495::1743053358::1::::<><>::
 Godot-OSM-POC.icon.png::CompressedTexture2D::3018526979835777089::1739502495::1743053358::1::::<><>::
 Godot-OSM-POC.png::CompressedTexture2D::867422257067221698::1739502495::1743053358::1::::<><>::
@@ -23,7 +24,7 @@ index.icon.png::CompressedTexture2D::6605254131721877110::1739502496::1743053358
 index.png::CompressedTexture2D::5731870434718265771::1739502496::1743053358::1::::<><>::
 Inv_slot.gd::GDScript::-1::1743494466::0::1::::InvSlot<>Resource<>::
 main.gd::GDScript::-1::1743494607::0::1::::<>RefCounted<>::
-main.tscn::PackedScene::7702588047323913116::1748510159::0::1::::<><>::uid://dpas5wq75oivi::::res://Map/map_container.tscn<>uid://bnkuec8jffdiw::::res://Player/player.tscn<>uid://debwn8vc5ptqy::::res://Rescue.tscn<>res://android_geolocation_plugin.gd<>uid://c5lchbqhkfm15::::res://assets/game_music/Fitz Intro Song - Wii Shop Channel.mp3<>uid://h4dwacgchxa2::::res://inventory/inv_ui.tscn<>uid://crlffdw0qcw8f::::res://addButton.tscn<>uid://rd4vhyxen0we::::res://inventory/inv.png
+main.tscn::PackedScene::7702588047323913116::1749723691::0::1::::<><>::uid://dpas5wq75oivi::::res://Map/map_container.tscn<>uid://bnkuec8jffdiw::::res://Player/player.tscn<>uid://debwn8vc5ptqy::::res://Rescue.tscn<>res://android_geolocation_plugin.gd<>uid://c5lchbqhkfm15::::res://assets/game_music/Fitz Intro Song - Wii Shop Channel.mp3<>uid://h4dwacgchxa2::::res://inventory/inv_ui.tscn<>uid://crlffdw0qcw8f::::res://addButton.tscn<>uid://rd4vhyxen0we::::res://inventory/inv.png
 main_game.gd::GDScript::-1::1743494470::0::1::::<>Node2D<>::
 main_menu.gd::GDScript::-1::1743494470::0::1::::<>Control<>::
 main_menu.tscn::PackedScene::7920502701510838433::1746689313::0::1::::<><>::res://main_menu.gd<>uid://c3ohgm1hxle0o::::res://assets/5.png
@@ -34,7 +35,7 @@ Rescue.tscn::PackedScene::7443442558390138844::1746689313::0::1::::<><>::res://r
 rescued_prompt.gd::GDScript::-1::1743494607::0::1::::<>Window<>::
 team.txt::TextFile::-1::1739502496::0::1::::<><>::
 user_input.gd::GDScript::-1::1748510094::0::1::::<>AcceptDialog<>::
-user_input.tscn::PackedScene::60869510871308677::1748510094::0::1::::<><>::res://user_input.gd
+user_input.tscn::PackedScene::60869510871308677::1749723691::0::1::::<><>::res://user_input.gd
 ::res://addons/::1743494466
 ::res://addons/dialogue_manager/::1743494466
 constants.gd::GDScript::-1::1743494466::0::1::::<>Node<>::
@@ -134,28 +135,28 @@ gilamonster.dialogue::Resource::7615778765650940815::1745477806::1745477806::1::
 ::res://Images/::1748510156
 gm_footprint.png::CompressedTexture2D::562852910165815523::1748510094::1748510156::1::::<><>::
 player_view_phl.png::CompressedTexture2D::509680318328548421::1739502496::1743053358::1::::<><>::
-::res://inventory/::1748510158
+::res://inventory/::1749723691
 inv.png::CompressedTexture2D::1201202175360617820::1748510094::1748510156::1::::<><>::
 inventory.gd::GDScript::-1::1743494470::0::1::::Inv<>Resource<>::
 inventory_item.gd::GDScript::-1::1743494470::0::1::::InvItem<>Resource<>::
 inv_bg.png::CompressedTexture2D::187851793262767979::1743494470::1744096299::1::::<><>::
 inv_ui.gd::GDScript::-1::1748510094::0::1::::<>Control<>::
-inv_ui.tscn::PackedScene::551410302143363087::1748510158::0::1::::<><>::res://inventory/inv_ui.gd<>uid://ddj316snnp0qq::::res://inventory/creatures/gila.tres<>uid://cw85kxbhd7hv::::res://inventory/inv_bg.png<>uid://baafo7ctlhpt::::res://inventory/inv_ui_slot.tscn
+inv_ui.tscn::PackedScene::551410302143363087::1749723691::0::1::::<><>::res://inventory/inv_ui.gd<>uid://ddj316snnp0qq::::res://inventory/creatures/gila.tres<>uid://cw85kxbhd7hv::::res://inventory/inv_bg.png<>uid://baafo7ctlhpt::::res://inventory/inv_ui_slot.tscn
 inv_ui_slot.gd::GDScript::-1::1743494470::0::1::::<>Panel<>::
 inv_ui_slot.tscn::PackedScene::70198557484902389::1748510094::0::1::::<><>::res://inventory/inv_ui_slot.gd<>uid://8yqolfk65w04::::res://nest.png
-playerinv.tres::Resource/Inv::7196078270393577395::1748510158::0::1::::<><>::res://Inv_slot.gd<>res://inventory/inventory.gd
+playerinv.tres::Resource/Inv::7196078270393577395::1749699820::0::1::::<><>::res://Inv_slot.gd<>res://inventory/inventory.gd
 ::res://inventory/creatures/::1748510094
 bunny.tres::Resource/InvItem::6833898025130460610::1743494470::0::1::::<><>::res://inventory/inventory_item.gd<>uid://bs4xfhpfjs1w1::::res://bunny2.png
 bunny_resized.tres::Resource/InvItem::5642428730238271769::1747949905::0::1::::<><>::res://inventory/inventory_item.gd<>uid://xmchryms65h0::::res://creatures/bunny.png
 gila.tres::Resource/InvItem::7390156144857912444::1748510094::0::1::::<><>::res://inventory/inventory_item.gd<>uid://lql3klqpw81k::::res://creatures/gila.png
 test.tres::Resource/InvItem::5693078961422179625::1743494470::0::1::::<><>::res://inventory/inventory_item.gd<>uid://c1dvtnrkysdvq::::res://index.icon.png
-::res://Map/::1746689314
-Map_container.gd::GDScript::-1::1744916251::0::1::::<>Node3D<>::
-map_container.tscn::PackedScene::8213242367061889858::1746689313::0::1::::<><>::res://Map/Map_container.gd
+::res://Map/::1749723793
+Map_container.gd::GDScript::-1::1749723793::0::1::::<>Node3D<>::
+map_container.tscn::PackedScene::8213242367061889858::1749723793::0::1::::<><>::res://Map/Map_container.gd
 map_tile.gd::GDScript::-1::1739502496::0::1::::<>Node<>::
-map_tile.tscn::PackedScene::8868636729884472457::1746689314::0::1::::<><>::res://Map/map_tile.gd
-::res://Player/::1748510028
+map_tile.tscn::PackedScene::8868636729884472457::1749723692::0::1::::<><>::res://Map/map_tile.gd
+::res://Player/::1749723692
 player.gd::GDScript::-1::1744763943::0::1::::<>Node3D<>::
-player.tscn::PackedScene::3320741068000115466::1748488067::0::1::::<><>::res://Player/player.gd<>uid://bc28aga7eiq38::::res://michelle.tscn
-::res://UI/::1747973562
-target_marker.tscn::PackedScene::3904489780847688821::1746689314::0::1::::<><>::uid://dxal1dh1n8s5f::::res://icon.svg
+player.tscn::PackedScene::3320741068000115466::1749723692::0::1::::<><>::res://Player/player.gd<>uid://bc28aga7eiq38::::res://michelle.tscn
+::res://UI/::1749723692
+target_marker.tscn::PackedScene::3904489780847688821::1749723692::0::1::::<><>::uid://dxal1dh1n8s5f::::res://icon.svg

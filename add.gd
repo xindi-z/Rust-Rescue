@@ -1,7 +1,6 @@
 extends Button
 
 @onready var user_input: Window = $UserInput
-@onready var confirm_button: Button = $UserInput/MarginContainer/QueryContainer/Button
 
 func _ready():
 	user_input.hide()

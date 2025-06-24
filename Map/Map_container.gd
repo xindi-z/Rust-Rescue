@@ -5,6 +5,7 @@ var tile_cache = {}
 var map_tile = load("res://Map/map_tile.tscn") as PackedScene
 const tile_group = "map_tiles"
 const speed = 1
+var target: Vector3 = Vector3.ZERO
 
 @export var android_plugin: AndroidGeolocationPlugin 
 @export var log_label: Label
@@ -30,6 +31,8 @@ var was_moving = false
 var center_coord : Vector2
 @onready var marker_scene := preload("res://UI/target_marker.tscn") as PackedScene
 var current_marker : Node3D  = null
+
+
 
 
 func _ready():
@@ -74,7 +77,7 @@ func create_tile(x: int, y: int) -> Node3D:
 	return tile
 
 func _physics_process(delta):
-	var target = calculate_movement(new_latitude, new_longitude, latitude, longitude)
+	target = calculate_movement(new_latitude, new_longitude, latitude, longitude)
 	log_label.text = str('Target: ', target)
 
 	# if its still moving

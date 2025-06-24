@@ -36,6 +36,8 @@ func _on_movement_state_changed(is_moving):
 		if dir.length() > 0.01:
 			var forward = dir.normalized()
 			look_at(global_transform.origin + forward, Vector3.UP)
+		print("Forward vector:", dir)  
+		print("Player global Z basis:", global_transform.basis.z)
 
 
 

@@ -2,7 +2,6 @@ extends AcceptDialog
 
 @onready var latitude_input: LineEdit = $MarginContainer/QueryContainer/LatContainer/LineEdit
 @onready var longitude_input: LineEdit = $MarginContainer/QueryContainer/LonContainer/LineEdit
-@onready var confirm_button: Button = $MarginContainer/QueryContainer/Button
 
 func _ready():
 	print("UserInput window ready")

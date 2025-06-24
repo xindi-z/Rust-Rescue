@@ -1,4 +1,7 @@
 Node3D
+CollisionShape3D
+CharacterBody3D
+Area3D
 Sprite3D
 AnimatedSprite3D
 TextureRect
@@ -9,7 +12,3 @@ NinePatchRect
 Window
 Label
 Button
-VBoxContainer
-MarginContainer
-Popup
-TextureButton
