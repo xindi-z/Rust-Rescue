@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://dh0gq80ikhvmy"]
+[gd_scene load_steps=10 format=3 uid="uid://dh0gq80ikhvmy"]
 
 [ext_resource type="PackedScene" uid="uid://dpas5wq75oivi" path="res://Map/map_container.tscn" id="1_86jw6"]
 [ext_resource type="PackedScene" uid="uid://bnkuec8jffdiw" path="res://Player/player.tscn" id="2_dbc1j"]
@@ -8,6 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://h4dwacgchxa2" path="res://inventory/inv_ui.tscn" id="6_h6ur2"]
 [ext_resource type="PackedScene" uid="uid://crlffdw0qcw8f" path="res://addButton.tscn" id="7_qp88k"]
 [ext_resource type="Texture2D" uid="uid://rd4vhyxen0we" path="res://inventory/inv.png" id="8_6cwhw"]
+[ext_resource type="PackedScene" uid="uid://cxj0d4hcuiwpi" path="res://animal_quiz.tscn" id="9_hpbj1"]
 
 [node name="Main" type="Node3D"]
 
@@ -84,5 +85,7 @@ offset_right = -72.0
 offset_bottom = 49.0
 grow_horizontal = 0
 icon = ExtResource("8_6cwhw")
+
+[node name="AnimalQuiz" parent="CanvasLayer" instance=ExtResource("9_hpbj1")]
 
 [connection signal="player_entered_world_tile" from="Player" to="Map_container" method="_on_player_player_entered_world_tile"]

@@ -30,8 +30,8 @@ var _idx = 0
 @onready var lbl_fb    = $MarginContainer/VBoxContainer/LabelFeedback
 @onready var img: NinePatchRect = $NinePatchRect
 
-func _ready():
-	show_quiz()
+#func _ready():
+	#show_quiz()
 
 func show_quiz():
 	_show_next_quiz()
@@ -77,7 +77,7 @@ func _on_option_pressed(chosen_idx: int, correct_idx: int, info: String):
 
 	# feedback
 	if chosen_idx == correct_idx:
-		lbl_fb.text = "You are right!！\n\n" + info
+		lbl_fb.text = "You are right!!\n\n" + info
 	else:
 		lbl_fb.text = "Oops~\n\n" + info
 

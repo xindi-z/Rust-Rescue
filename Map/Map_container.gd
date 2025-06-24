@@ -32,8 +32,13 @@ var center_coord : Vector2
 @onready var marker_scene := preload("res://UI/target_marker.tscn") as PackedScene
 var current_marker : Node3D  = null
 
+# define fences
+var fences = [
+	{"name":"fence A", "lat":32.3733502, "lon":-106.7517931, "r":30.0, "triggered":false},
+	{"name":"fence B", "lat":32.3733502, "lon":-106.7517931, "r":30.0, "triggered":false},
+]
 
-
+@onready var quiz_popup: AcceptDialog = $"../CanvasLayer/AnimalQuiz"
 
 func _ready():
 	center_coord = _mercator_projection(latitude, longitude, zoom)
@@ -47,6 +52,9 @@ func _ready():
 	new_longitude = longitude
 	android_plugin.android_location_updated.connect(self._on_location_update)
 	
+	quiz_popup.hide()
+	android_plugin.android_location_updated.connect(_on_location_update)
+	
 #Handles GPS Updates
 func _on_location_update(location_dictionary: Dictionary) -> void:
 	#log_label = $"../Control/Label"
@@ -54,6 +62,33 @@ func _on_location_update(location_dictionary: Dictionary) -> void:
 	new_longitude = location_dictionary["longitude"]
 	log_label.text = str('Location Update: Latitude[', new_latitude, '], Longitude[', new_longitude, ']')
 	
+	for f in fences:
+		var d = _haversine(new_latitude, new_longitude, f.lat, f.lon)
+		print("checking", f.name, "center(", f.lat, f.lon, ")distance:", d, "radius:", f.r)
+		if d <= f.r and not f.triggered:
+			f.triggered = true
+			print("entering the fence：", f.name)
+			quiz_popup.show_quiz()
+			print("quiz_triggered")
+
+		elif d > f.r:
+			print("exiting fence：", f.name)
+			f.triggered = false
+			
+
+# Haversine formula, returns the distance between two points (meters)
+func _haversine(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
+	var R = 6371000.0
+	var φ1 = deg_to_rad(lat1)
+	var φ2 = deg_to_rad(lat2)
+	var dφ = deg_to_rad(lat2 - lat1)
+	var dλ = deg_to_rad(lon2 - lon1)
+	var a = sin(dφ/2) * sin(dφ/2) \
+			+ cos(φ1) * cos(φ2) * sin(dλ/2) * sin(dλ/2)
+	var c = 2 * atan2(sqrt(a), sqrt(1 - a))
+	return R * c
+	
+		
 func generate_grid(start_x: int, start_y: int, origin_positon: Vector3) -> void:
 	var x_offset = grid_width / 2 
 	var y_offset = grid_height / 2
