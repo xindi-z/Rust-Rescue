@@ -1,8 +1,7 @@
 [gd_scene load_steps=2 format=3 uid="uid://bvvmm16vw00td"]
 
-[ext_resource type="Texture2D" uid="uid://dxal1dh1n8s5f" path="res://icon.svg" id="1_4j4jt"]
+[ext_resource type="Texture2D" uid="uid://cr7nrk7ec7vvi" path="res://Images/fs.png" id="1_ulaa1"]
 
-[node name="target_marker" type="Node3D"]
-
-[node name="PinIcon" type="Sprite3D" parent="."]
-texture = ExtResource("1_4j4jt")
+[node name="target_marker" type="Sprite3D"]
+axis = 1
+texture = ExtResource("1_ulaa1")

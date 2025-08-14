@@ -6,21 +6,9 @@
 [node name="AnimalQuiz" type="AcceptDialog"]
 title = "Pop Quiz"
 initial_position = 2
-size = Vector2i(500, 357)
+size = Vector2i(500, 451)
 visible = true
 script = ExtResource("1_hfbcy")
-
-[node name="NinePatchRect" type="NinePatchRect" parent="."]
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 8.0
-offset_top = 8.0
-offset_right = -8.0
-offset_bottom = -49.0
-grow_horizontal = 2
-grow_vertical = 2
-texture = ExtResource("2_4i8mq")
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 custom_minimum_size = Vector2(450, 300)
@@ -29,16 +17,21 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -242.0
-offset_top = -170.5
-offset_right = 242.0
-offset_bottom = 129.5
+offset_left = 8.0
+offset_top = 8.0
+offset_right = 492.0
+offset_bottom = 402.0
 grow_horizontal = 2
 grow_vertical = 2
 
 [node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
 custom_minimum_size = Vector2(450, 300)
 layout_mode = 2
+
+[node name="NinePatchRect" type="NinePatchRect" parent="MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 200)
+layout_mode = 2
+texture = ExtResource("2_4i8mq")
 
 [node name="LabelQuestion" type="Label" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2

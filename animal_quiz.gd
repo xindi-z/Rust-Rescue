@@ -28,12 +28,14 @@ var _idx = 0
 @onready var lbl_q     = $MarginContainer/VBoxContainer/LabelQuestion
 @onready var choice_ct = $MarginContainer/VBoxContainer/choiceContainer
 @onready var lbl_fb    = $MarginContainer/VBoxContainer/LabelFeedback
-@onready var img: NinePatchRect = $NinePatchRect
+#@onready var img: NinePatchRect = $NinePatchRect
+@onready var img: NinePatchRect = $MarginContainer/VBoxContainer/NinePatchRect
 
 #func _ready():
 	#show_quiz()
 
 func show_quiz():
+	print("▶ AnimalQuiz.show_quiz() 被调用，当前题目索引：", _idx)
 	_show_next_quiz()
 
 #looping the function

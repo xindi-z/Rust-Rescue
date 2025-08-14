@@ -2,9 +2,9 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bjagx0j1lynxp"
-path.s3tc="res://.godot/imported/Godot-OSM-POC.icon.png-ff9fd66686b9aa8433f02305a78a32a1.s3tc.ctex"
-path.etc2="res://.godot/imported/Godot-OSM-POC.icon.png-ff9fd66686b9aa8433f02305a78a32a1.etc2.ctex"
+uid="uid://cr7nrk7ec7vvi"
+path.s3tc="res://.godot/imported/fs.png-c8e61b7226564969c3061fbcb2a44c60.s3tc.ctex"
+path.etc2="res://.godot/imported/fs.png-c8e61b7226564969c3061fbcb2a44c60.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ metadata={
 
 [deps]
 
-source_file="res://Godot-OSM-POC.icon.png"
-dest_files=["res://.godot/imported/Godot-OSM-POC.icon.png-ff9fd66686b9aa8433f02305a78a32a1.s3tc.ctex", "res://.godot/imported/Godot-OSM-POC.icon.png-ff9fd66686b9aa8433f02305a78a32a1.etc2.ctex"]
+source_file="res://Images/fs.png"
+dest_files=["res://.godot/imported/fs.png-c8e61b7226564969c3061fbcb2a44c60.s3tc.ctex", "res://.godot/imported/fs.png-c8e61b7226564969c3061fbcb2a44c60.etc2.ctex"]
 
 [params]
 

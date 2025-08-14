@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://dh0gq80ikhvmy"]
+[gd_scene load_steps=12 format=3 uid="uid://dh0gq80ikhvmy"]
 
 [ext_resource type="PackedScene" uid="uid://dpas5wq75oivi" path="res://Map/map_container.tscn" id="1_86jw6"]
 [ext_resource type="PackedScene" uid="uid://bnkuec8jffdiw" path="res://Player/player.tscn" id="2_dbc1j"]
@@ -8,6 +8,8 @@
 [ext_resource type="PackedScene" uid="uid://h4dwacgchxa2" path="res://inventory/inv_ui.tscn" id="6_h6ur2"]
 [ext_resource type="PackedScene" uid="uid://crlffdw0qcw8f" path="res://addButton.tscn" id="7_qp88k"]
 [ext_resource type="Texture2D" uid="uid://rd4vhyxen0we" path="res://inventory/inv.png" id="8_6cwhw"]
+[ext_resource type="PackedScene" uid="uid://cu8sxvmfsqpn1" path="res://UI/RouteSelector.tscn" id="8_jfwws"]
+[ext_resource type="Texture2D" uid="uid://82mo521bylhk" path="res://Images/tele.png" id="8_n8r7f"]
 [ext_resource type="PackedScene" uid="uid://cxj0d4hcuiwpi" path="res://animal_quiz.tscn" id="9_hpbj1"]
 
 [node name="Main" type="Node3D"]
@@ -65,6 +67,7 @@ layout_mode = 2
 position = Vector2(-538, -225)
 
 [node name="add" parent="CanvasLayer" instance=ExtResource("7_qp88k")]
+visible = false
 anchor_left = 0.949
 anchor_top = 0.002
 anchor_right = 0.99
@@ -73,6 +76,17 @@ offset_left = 0.751953
 offset_top = -0.296
 offset_right = 0.52002
 offset_bottom = 0.399998
+
+[node name="RouteSelector" type="Button" parent="CanvasLayer"]
+custom_minimum_size = Vector2(40, 40)
+anchors_preset = -1
+anchor_left = 0.949
+anchor_top = 0.002
+anchor_right = 0.99
+anchor_bottom = 0.075
+icon = ExtResource("8_n8r7f")
+
+[node name="RouteSelector" parent="CanvasLayer/RouteSelector" instance=ExtResource("8_jfwws")]
 
 [node name="invButton" type="Button" parent="CanvasLayer"]
 custom_minimum_size = Vector2(40, 40)

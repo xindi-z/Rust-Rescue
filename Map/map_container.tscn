@@ -1,6 +1,8 @@
-[gd_scene load_steps=2 format=3 uid="uid://dpas5wq75oivi"]
+[gd_scene load_steps=3 format=3 uid="uid://dpas5wq75oivi"]
 
 [ext_resource type="Script" path="res://Map/Map_container.gd" id="1_kmdud"]
+
+[sub_resource type="Curve3D" id="Curve3D_cmt0s"]
 
 [node name="Map_container" type="Node3D"]
 script = ExtResource("1_kmdud")
@@ -10,5 +12,10 @@ script = ExtResource("1_kmdud")
 [node name="TilePurgeTimer" type="Timer" parent="."]
 wait_time = 5.0
 autostart = true
+
+[node name="Path3D" type="Path3D" parent="."]
+curve = SubResource("Curve3D_cmt0s")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 
 [connection signal="timeout" from="TilePurgeTimer" to="." method="_on_tile_purge_timer_timeout"]
