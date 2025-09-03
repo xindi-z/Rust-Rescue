@@ -55,12 +55,28 @@ var missions = [
 		]
 	},
 	{
-		"name":"Science hall ",
+		"name":"Science hall 2",
 		"tests":[
 			{"name":"Test A", "lat":32.2804731, "lon":-106.7527608, "radius":2, "state":0, "marker":null},
 			{"name":"Test B", "lat":32.2804615, "lon":-106.7524413, "radius":2, "state":0, "marker":null},
 		],
 		"final":{"name":"Final", "lat":32.2807701, "lon":-106.7520105, "radius":2, "state":-1, "marker":null},
+		"directions": [
+		  { "lat":32.2804731, "lon":-106.7527608},
+		  { "lat":32.2804099, "lon":-106.7527416},
+		  { "lat":32.2804615, "lon":-106.7524413},
+		  { "lat":32.2806506, "lon":-106.7524971},
+		  { "lat":32.2807701, "lon":-106.7520105},
+
+		]
+	},
+		{
+		"name":"Science hall 5",
+		"tests":[
+			{"name":"Test A", "lat":32.2804731, "lon":-106.7527608, "radius":5, "state":0, "marker":null},
+			{"name":"Test B", "lat":32.2804615, "lon":-106.7524413, "radius":5, "state":0, "marker":null},
+		],
+		"final":{"name":"Final", "lat":32.2807701, "lon":-106.7520105, "radius":5, "state":-1, "marker":null},
 		"directions": [
 		  { "lat":32.2804731, "lon":-106.7527608},
 		  { "lat":32.2804099, "lon":-106.7527416},
