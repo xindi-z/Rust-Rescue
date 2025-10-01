@@ -1,7 +1,7 @@
 [gd_scene load_steps=2 format=3 uid="uid://bvvmm16vw00td"]
 
-[ext_resource type="Texture2D" uid="uid://cr7nrk7ec7vvi" path="res://Images/fs.png" id="1_ulaa1"]
+[ext_resource type="Texture2D" uid="uid://cr7nrk7ec7vvi" path="res://Images/fs.png" id="1_iep03"]
 
 [node name="target_marker" type="Sprite3D"]
 axis = 1
-texture = ExtResource("1_ulaa1")
+texture = ExtResource("1_iep03")
