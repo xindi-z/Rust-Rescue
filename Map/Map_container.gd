@@ -1,5 +1,16 @@
 extends Node3D
 
+const MIN_TILE_ZOOM := 19
+const MAX_TILE_ZOOM := 19
+
+@export var camera: Camera3D                       # Drag the Camera3D in the scene
+@export var base_tile_scale := 1.0                 # Base scaling at level 19
+@export var base_camera_fov := 70.0                # Camera Basics FOV
+@export var extra_zoom_max_factor := 3.0           # After exceeding 19, how many times can it be magnified (visually)
+@export var extra_zoom_step := 1.2                 # The magnification of each continue to zoom in
+
+var extra_zoom_factor := 1.0                       # Currently exceeds 19 visual magnifications
+
 var tile_cache = {}
 @onready var tile_bucket = $MapTiles
 var map_tile = load("res://Map/map_tile.tscn") as PackedScene
@@ -55,12 +66,28 @@ var missions = [
 		]
 	},
 	{
-		"name":"Science hall ",
+		"name":"Science hall 2",
 		"tests":[
 			{"name":"Test A", "lat":32.2804731, "lon":-106.7527608, "radius":2, "state":0, "marker":null},
 			{"name":"Test B", "lat":32.2804615, "lon":-106.7524413, "radius":2, "state":0, "marker":null},
 		],
 		"final":{"name":"Final", "lat":32.2807701, "lon":-106.7520105, "radius":2, "state":-1, "marker":null},
+		"directions": [
+		  { "lat":32.2804731, "lon":-106.7527608},
+		  { "lat":32.2804099, "lon":-106.7527416},
+		  { "lat":32.2804615, "lon":-106.7524413},
+		  { "lat":32.2806506, "lon":-106.7524971},
+		  { "lat":32.2807701, "lon":-106.7520105},
+
+		]
+	},
+		{
+		"name":"Science hall 5",
+		"tests":[
+			{"name":"Test A", "lat":32.2804731, "lon":-106.7527608, "radius":5, "state":0, "marker":null},
+			{"name":"Test B", "lat":32.2804615, "lon":-106.7524413, "radius":5, "state":0, "marker":null},
+		],
+		"final":{"name":"Final", "lat":32.2807701, "lon":-106.7520105, "radius":5, "state":-1, "marker":null},
 		"directions": [
 		  { "lat":32.2804731, "lon":-106.7527608},
 		  { "lat":32.2804099, "lon":-106.7527416},
@@ -98,9 +125,10 @@ var current_mission = null
 var route_mesh: MeshInstance3D = null
 
 func _ready():
-	center_coord = _mercator_projection(latitude, longitude, zoom)
-	var origin_tile = Vector2(floor(center_coord.x), floor(center_coord.y))
-	generate_grid(origin_tile.x, origin_tile.y, Vector3.ZERO)
+	center_coord = _mercator_coord(latitude, longitude, zoom)  # Use continuous coordinates
+	var center_tile_x := int(floor(center_coord.x))
+	var center_tile_y := int(floor(center_coord.y))
+	generate_grid(center_tile_x, center_tile_y, Vector3.ZERO)
 
 	new_latitude = latitude
 	new_longitude = longitude
@@ -108,8 +136,8 @@ func _ready():
 	find_btn.pressed.connect(Callable(self, "_on_find_routes_pressed"))
 	selector.connect("route_chosen", Callable(self, "_on_route_selected"))
 	selector.hide()
-
 	quiz_popup.hide()
+
 	#await get_tree().process_frame
 	#quiz_popup.show_quiz()
 	#showMission(missions[0])
@@ -189,9 +217,10 @@ func _place_marker(p: Dictionary, col: Color) -> void:
 	p.marker = m
 
 func generate_grid(start_x: int, start_y: int, origin: Vector3) -> void:
-	var x_off = grid_width / 2
-	var y_off = grid_height / 2
+	var x_off: int = grid_width / 2    # int
+	var y_off: int = grid_height / 2   # int
 	var load_count = 0
+
 	for y in grid_height:
 		for x in grid_width:
 			var xi = start_x + x - x_off
@@ -199,7 +228,14 @@ func generate_grid(start_x: int, start_y: int, origin: Vector3) -> void:
 			if not tile_cache.has([xi, yi]):
 				load_count += 1
 				var tile = create_tile(xi, yi)
-				tile.position = origin + Vector3(x - x_off, 0, y - y_off)
+
+				# Tile position is (integer tile center) - (continuous center coordinate)
+				# If the tile mesh origin is at the geometric center, +0.5/0.5 represents the tile center
+				tile.position = Vector3(
+					(xi + 0.5 - center_coord.x) * tile_scale, 
+					0, 
+					(yi + 0.5 - center_coord.y) * tile_scale
+				)
 	print("generate_grid() loaded:", load_count)
 
 func create_tile(x: int, y: int) -> Node3D:
@@ -247,10 +283,11 @@ func _mercator_coord(lat: float, lon: float, zoom: int) -> Vector2:
 	return Vector2(x, y)
 
 func calculate_movement(dest_lat: float, dest_lon: float, origin_lat: float, origin_lon: float) -> Vector3:
-	var dest = _mercator_projection(dest_lat, dest_lon, zoom)
-	var origin = _mercator_projection(origin_lat, origin_lon, zoom)
+	var dest = _mercator_coord(dest_lat, dest_lon, zoom)
+	var origin = _mercator_coord(origin_lat, origin_lon, zoom)
 	var movement = dest - origin
-	return Vector3(movement.x, 0 , movement.y) * -1.0
+	return Vector3(movement.x, 0, movement.y) * -1.0
+
 
 func get_nearby_routes(max_dist_meters: float) -> Array:
 	var nearby = []
@@ -290,38 +327,114 @@ func _on_route_selected(idx: int) -> void:
 	showMission(chosen)
 
 func _draw_route_immediate(route: Dictionary) -> void:
-	# remove old route
-	var old_mesh = tile_bucket.get_node_or_null("RouteMesh")
-	if old_mesh:
-		old_mesh.queue_free()
-
-	# make new ImmediateMesh，and set it to PRIMITIVE_LINES
-	var im = ImmediateMesh.new()
+	# First build a new line segment Mesh
+	var im := ImmediateMesh.new()
 	im.surface_begin(Mesh.PRIMITIVE_LINES)
-
-	# set all the points
 	var pts = route.directions
-	# draw with order
 	for i in range(pts.size() - 1):
 		var p1 = pts[i]
 		var p2 = pts[i + 1]
-		# Mercator convert to tile coord
 		var c1 = _mercator_coord(p1.lat, p1.lon, zoom)
 		var c2 = _mercator_coord(p2.lat, p2.lon, zoom)
-		# use center_coord to convert to world coord
 		var w1 = Vector3((c1.x - center_coord.x) * tile_scale, 0, (c1.y - center_coord.y) * tile_scale)
 		var w2 = Vector3((c2.x - center_coord.x) * tile_scale, 0, (c2.y - center_coord.y) * tile_scale)
-
 		im.surface_add_vertex(w1)
 		im.surface_add_vertex(w2)
 	im.surface_end()
-	
-	# addin to scene
-	var mi = MeshInstance3D.new()
-	mi.name = "RouteMesh"
-	var mat = StandardMaterial3D.new()
+
+	# Prepare the material
+	var mat := StandardMaterial3D.new()
 	mat.shading_mode = BaseMaterial3D.SHADING_MODE_UNSHADED
 	mat.albedo_color = Color(1, 0.8, 0)  # yellow
-	mi.mesh = im
-	mi.material_override = mat
-	tile_bucket.add_child(mi)
+
+	# If there is an old route_mesh, release it immediately to avoid name conflicts and residues.
+	if is_instance_valid(route_mesh):
+		route_mesh.free()   # 注意用 free() 立即释放，避免 queue_free 的延迟
+
+	# create/reuse unique MeshInstance3D
+	route_mesh = MeshInstance3D.new()
+	route_mesh.name = "RouteMesh"
+	route_mesh.mesh = im
+	route_mesh.material_override = mat
+	tile_bucket.add_child(route_mesh)
+
+
+func _apply_visual_zoom() -> void:
+	# Actual tile scaling: only use base_tile_scale between 0..19
+	# Above 19, no finer tile size is requested, and "visual zooming" begins
+	var visual_scale := base_tile_scale * extra_zoom_factor
+	tile_scale = visual_scale  
+
+	# Zoom the entire map directly 
+	tile_bucket.scale = Vector3.ONE * extra_zoom_factor
+
+	# Zoom in closer
+	if is_instance_valid(camera):
+		var fov := base_camera_fov / extra_zoom_factor
+		camera.fov = clamp(fov, 20.0, base_camera_fov)
+
+func set_zoom_steps(steps: int) -> void:
+	# zoom out
+	if steps < 0:
+		if extra_zoom_factor > 1.0:
+			extra_zoom_factor = max(1.0, extra_zoom_factor / pow(extra_zoom_step, -steps))
+			_apply_visual_zoom()
+			return
+		var new_zoom: int = clamp(zoom + steps, MIN_TILE_ZOOM, MAX_TILE_ZOOM)
+		if new_zoom != zoom:
+			zoom = new_zoom
+			_rebuild_tiles_and_overlays()
+		_apply_visual_zoom()
+		return
+
+	# zoom in
+	if steps > 0:
+		if zoom < MAX_TILE_ZOOM:
+			var new_zoom: int = clamp(zoom + steps, MIN_TILE_ZOOM, MAX_TILE_ZOOM)
+			if new_zoom != zoom:
+				zoom = new_zoom
+				_rebuild_tiles_and_overlays()
+			# After reaching 19, continue to zoom in and the following branch will handle it
+		else:
+			# Zoom has reached MAX, start visual zoom
+			extra_zoom_factor = min(extra_zoom_max_factor, extra_zoom_factor * pow(extra_zoom_step, steps))
+		_apply_visual_zoom()
+
+func _rebuild_tiles_and_overlays() -> void:
+	# Cleaning old tiles
+	tile_cache.clear()
+	for c in tile_bucket.get_children():
+		c.queue_free()
+
+	# Re-tile with new zoom
+	center_coord = _mercator_coord(latitude, longitude, zoom)
+	var cx := int(floor(center_coord.x))
+	var cy := int(floor(center_coord.y))
+	generate_grid(cx, cy, Vector3.ZERO)
+
+	# route and marker (if present for the current mission) are redrawn.
+	if current_mission != null:
+		_draw_route_immediate(current_mission)
+		for t in current_mission.tests:
+			_place_marker(t, Color(0.5, 0.5, 0.5) if t.state == 1 else Color(1, 1, 0))
+
+		if current_mission.final.state >= 0:
+			_place_marker(current_mission.final, Color(1, 0, 0))
+
+
+
+func _unhandled_input(event: InputEvent) -> void:
+	# mouse event
+	if event is InputEventMouseButton and event.pressed:
+		if event.button_index == MOUSE_BUTTON_WHEEL_UP:
+			set_zoom_steps(+1)
+		elif event.button_index == MOUSE_BUTTON_WHEEL_DOWN:
+			set_zoom_steps(-1)
+
+	# mobile event
+	if event is InputEventMagnifyGesture:
+		# factor > 1 zoom in, factor < 1 zoom out
+		if event.factor > 1.0:
+			set_zoom_steps(+1)
+		elif event.factor < 1.0:
+			set_zoom_steps(-1)
