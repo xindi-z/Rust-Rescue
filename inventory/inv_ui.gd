@@ -19,11 +19,14 @@ var quiz_instance: AcceptDialog
 @export var item: InvItem
 #hide inventory at first
 var is_open = false
-
+# inv_ui.gd
+@onready var total_label: Label = $NinePatchRect/total
 func _ready():
 #	listen to inv updates
 	inv.update.connect(update_slots)
 	update_slots()
+	_update_total_label()
+
 	close()
 	
 #when recived signal, call on_animal_rescued
@@ -36,11 +39,23 @@ func _ready():
 #listen to inv button
 	toggle_btn.pressed.connect(_on_ToggleButton_pressed)
 
+#test by hotkey x
+func _input(event):
+	if event is InputEventKey and event.pressed and not event.echo:
+		if event.keycode == KEY_X:
+			on_animal_rescued()
+
+func _update_total_label():
+	if total_label:
+		var n := inv.get_total_saved()
+		total_label.text = "Saved creature: %d" % n
+
 #adding creatures inventory(a list of the items's name and texture) into slots
 func update_slots():
 	for i in range(min(inv.slots.size(),slots.size())):
 		slots[i].update(inv.slots[i])
-	
+	_update_total_label()
+
 #actions could be operate during the game
 #press i to open/close inventory
 func _process(dealta):
@@ -64,6 +79,7 @@ func on_animal_rescued():
 	
 func collect(item):
 	inv.insert(item)
+	_update_total_label()
 	DialogueManager.show_dialogue_balloon(load("res://dialogs/gilamonster.dialogue"), "start")
 
 

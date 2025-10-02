@@ -70,7 +70,7 @@ func _show_next_quiz():
 
 #	as name
 	popup_centered()
-
+	position.y -= 50
 
 func _on_option_pressed(chosen_idx: int, correct_idx: int, info: String):
 	# buttons are disabled after pressed

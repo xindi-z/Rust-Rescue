@@ -141,11 +141,20 @@ func _ready():
 	#await get_tree().process_frame
 	#quiz_popup.show_quiz()
 	#showMission(missions[0])
-	
-func _on_location_update(loc : Dictionary) -> void:
-	new_latitude  = loc["latitude"]
-	new_longitude = loc["longitude"]
-	log_label.text = "Lat: %f  Lon: %f" % [new_latitude, new_longitude]
+var _centered_from_gps := false
+
+func _on_location_update(loc: Dictionary) -> void:
+	new_latitude  = float(loc["latitude"])
+	new_longitude = float(loc["longitude"])
+	if log_label:
+		log_label.text = "Lat: %f  Lon: %f" % [new_latitude, new_longitude]
+
+	# 第一次拿到定位 → 用设备经纬度作为新的地图中心并重建瓦片
+	if not _centered_from_gps:
+		latitude = new_latitude
+		longitude = new_longitude
+		_recenter_and_rebuild()
+		_centered_from_gps = true
 
 	if current_mission == null:
 		print("null")
@@ -169,6 +178,23 @@ func _on_location_update(loc : Dictionary) -> void:
 	if current_mission.tests.all(func(x): return x.state == 1) and current_mission.final.state < 0:
 		current_mission.final.state = 0
 		_place_marker(current_mission.final, Color(1, 0, 0))
+
+func _recenter_and_rebuild() -> void:
+	center_coord = _mercator_coord(latitude, longitude, zoom)
+	var cx := int(floor(center_coord.x))
+	var cy := int(floor(center_coord.y))
+	tile_cache.clear()
+	for c in tile_bucket.get_children():
+		c.queue_free()
+	generate_grid(cx, cy, Vector3.ZERO)
+
+	# 你的路线/marker如果要跟着重画，可以保留这几行
+	if current_mission != null:
+		_draw_route_immediate(current_mission)
+		for t in current_mission.tests:
+			_place_marker(t, Color(0.5, 0.5, 0.5) if t.state == 1 else Color(1, 1, 0))
+		if current_mission.final.state >= 0:
+			_place_marker(current_mission.final, Color(1,0,0))
 
 func showMission(mission : Dictionary) -> void:
 	current_mission = mission

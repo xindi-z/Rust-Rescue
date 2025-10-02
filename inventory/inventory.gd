@@ -19,3 +19,11 @@ func insert(item: InvItem):
 			emptyslots[0].item = item
 			emptyslots[0].amount = 1
 	update.emit()
+
+# Inv.gd
+func get_total_saved() -> int:
+	var total := 0
+	for s in slots:
+		if s.item != null:
+			total += max(0, s.amount)
+	return total
